@@ -1,68 +1,107 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">next.yougotthis.io</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <div class="wrapper mb-16">
+      <h1 class="page-title">
+        You Got This is a community event series focused on discussing core
+        skills needed for a happy, healthy work life.
+      </h1>
+      <p class="text-xl lg:text-2xl my-6">
+        We talk about the skills you don't get taught and just have to work out
+        - it shouldn't have to be this way. Discover talks, workshops, and
+        social events around our core community themes.
+      </p>
+      <ul class="flex flex-wrap">
+        <li v-for="tag in tags" :key="tag.name" class="tag">
+          <n-link :to="`/talks?tag=${tag.name}`">{{
+            tag.name.toLowerCase().split('-').join(' ')
+          }}</n-link>
+        </li>
+      </ul>
+      <Newsletter />
+    </div>
+
+    <div class="wrapper mb-16">
+      <h2 class="text-2xl lg:text-4xl font-bold">
+        New here? Check these talks out.
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+        <Talk
+          v-for="talk in talks"
+          :key="talk.slug"
+          :talk="talk"
+          :slim="true"
+        />
       </div>
+    </div>
+
+    <div class="wrapper mb-16">
+      <h2 class="text-2xl lg:text-4xl font-bold">
+        Drop in next time we're around.
+      </h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 mt-4 gap-4">
+        <Event
+          v-for="event in events"
+          :key="event.date"
+          :event="event"
+          class="flex"
+        />
+      </div>
+    </div>
+    <Testimonials />
+    <div class="wrapper mb-16">
+      <h2 class="text-2xl lg:text-4xl font-bold">Cheers to our supporters.</h2>
+      <div
+        class="
+          mt-4
+          grid
+          gap-1
+          grid-cols-3
+          sm:grid-cols-4
+          md:grid-cols-5
+          lg:grid-cols-6
+        "
+      >
+        <img
+          v-for="sponsor of $store.state.sponsors"
+          :key="sponsor"
+          :src="`/img/sponsors/${sponsor}.png`"
+          :alt="sponsor"
+          class="lazyload"
+        />
+      </div>
+    </div>
+    <div class="wrapper mb-16">
+      <h2 class="text-2xl lg:text-4xl font-bold">Hear it first.</h2>
+      <Newsletter />
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content, store }) {
+    const tags = store.state.tags.filter((tag) => tag.type === 'theme')
+    const talks = await $content('talks')
+      .sortBy('date', 'desc')
+      .where({
+        highlight: true,
+      })
+      .fetch()
+    const events = await $content('events')
+      .sortBy('date', 'asc')
+      .limit(3)
+      .fetch()
+    return {
+      tags,
+      talks,
+      events,
+    }
+  },
+}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+<style scoped>
+.tag a {
+  @apply bg-indigo-100 mr-4 mb-4 text-base lg:text-xl py-1 px-4 lg:py-2 rounded-full inline-block;
 }
 </style>
