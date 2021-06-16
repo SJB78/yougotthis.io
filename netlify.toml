@@ -1,9 +1,154 @@
 [[redirects]]
-    from = "/api"
+    from = "/api/"
     to = "https://archive.yougotthis.io/api"
     status = 301
 
 [[redirects]]
     from = "/api/*"
     to = "https://archive.yougotthis.io/api/:splat"
+    status = 301
+
+[[redirects]]
+    from = "/tags/diversity-accessibility-&-inclusion/"
+    to = "/talks?tag=diversity-accessibility-inclusion"
+    status = 301
+
+[[redirects]]
+    from = "/tags/*"
+    to = "/talks?tag=:splat"
+    status = 301
+
+[[redirects]]
+    from = "/discord/"
+    to = "https://discord.gg/Jg358Wu"
+    status = 301
+
+[[redirects]]
+    from = "/report/"
+    to = "https://airtable.com/shrRj0Ed5giqsSfqx"
+    status = 301
+
+[[redirects]]
+    from = "/newsletter/"
+    to = "https://buttondown.email/yougotthisconf"
+    status = 301
+
+[[redirects]]
+    from = "/twitter/"
+    to = "https://twitter.com/yougotthisconf"
+    status = 301
+
+[[redirects]]
+    from = "/github/"
+    to = "https://github.com/yougotthisconf"
+    status = 301
+
+[[redirects]]
+    from = "/blog/"
+    to = "https://dev.to/yougotthisconf"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-amina-adewusi/"
+    to = "/talks/how-to-find-your-perfect-mentor"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-amy-dickens/"
+    to = "/talks/real-talk-about-when-to-walk-away"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-dan-parkes/"
+    to = "/talks/unions-got-this-organizing-the-tech-trade"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-gargi-sharma/"
+    to = "/talks/so-good-they-cant-ignore-you"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-keziyah-lewis/"
+    to = "/talks/its-not-your-job-to-love-your-job"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-matthew-gilliard/"
+    to = "/talks/learning-to-invest-in-your-future"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-melinda-seckington/"
+    to = "/talks/level-up-developing-developers"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-nathaniel-okenwa/"
+    to = "/talks/making-your-first-days-count"
+    status = 301
+
+[[redirects]]
+    from = "/2020-birmingham-ruth-lee/"
+    to = "/talks/company-culture-performance-reviews"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-jo-franchetti/"
+    to = "/talks/perfectionism-imposter-syndrome-anxiety"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-paula-muldoon/"
+    to = "/talks/where-did-all-my-money-go"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-sam-morgan/"
+    to = "/talks/transformative-power-of-junior-devs"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-sam-warner/"
+    to = "/talks/morality-ethics-caring-is-everything"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-sascha-wolf/"
+    to = "/talks/you-know-nothing-or-do-you"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-tara-ojo/"
+    to = "/talks/junior-dot-next"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-taylor-morrison/"
+    to = "/talks/self-care-beyond-the-hashtags"
+    status = 301
+
+[[redirects]]
+    from = "/2019-london-violet-pena/"
+    to = "/talks/understanding-and-cultivating-independence"
+    status = 301
+
+[[redirects]]
+    from = "/photos/2020-birmingham/"
+    to = "/photos"
+    status = 301
+
+[[redirects]]
+    from = "/photos/2019-london/"
+    to = "/photos"
+    status = 301
+
+[[redirects]]
+    from = "/couch/"
+    to = "https://yougotthis.io/tags/you-got-this-from-your-couch/"
+    status = 301
+
+[[redirects]]
+    from = "/talks/from-induvidual-contributor-to-manager/"
+    to = "/talks/from-individual-contributor-to-manager"
     status = 301

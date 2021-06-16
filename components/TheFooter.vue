@@ -3,10 +3,10 @@
     <div class="bg-gradient-to-l from-pink-500 to-indigo-700 text-white">
       <ul class="wrapper p-4 space-x-3 flex">
         <li><nuxt-link to="/run">Run Your Own</nuxt-link></li>
-        <li><nuxt-link to="mailto:kevin@yougotthis.io">Email</nuxt-link></li>
-        <li><nuxt-link to="/rss">RSS</nuxt-link></li>
-        <li><nuxt-link to="/api">API</nuxt-link></li>
-        <li><a to="/twitter">Twitter</a></li>
+        <li><a href="mailto:kevin@yougotthis.io">Email</a></li>
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a href="api">API</a></li>
+        <li><a href="/twitter">Twitter</a></li>
         <li><a href="/discord">Discord</a></li>
       </ul>
     </div>

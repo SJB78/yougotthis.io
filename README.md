@@ -18,3 +18,12 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## To Do
+
+- [ ] Accessibility Features
+- [ ] Ensure all URLs resolve
+- [ ] API notice on old website
+- [ ] Social Graph Images
+- [ ] Favicon & meta tags
+- [ ] Page with photos @nuxtjs/image?

@@ -10,7 +10,7 @@ speakers:
     twitter: imalexnowuk
     bio: Alex Papadopoulos is a UX Designer at Reevoo and PhD Adventurer at UCL, committed to the noble cause of making the world suck less. He is founding member of Queer Wave, the first LGBTQ+ film festival in Cyprus, a peer mentor at Spectra, an organisation that helps LGBT people who need support, and part of the content design team at TransActual UK. An optimist by choice, he is always on the lookout for projects that can make the world a brighter and more equal place.
     photo: alex-papadopoulos.jpg
-tags: ['you-got-this-from-your-couch', 'diversity-accessibility-&-inclusion', 'self-care' ]
+tags: ['you-got-this-from-your-couch', 'diversity-accessibility-inclusion', 'self-care' ]
 ---
 
 ALEX: Thank you, I was actively looking for something like this talk when I was considering my options about how to come out at work, so, yes, now I'm doing one. It was just really cool. Starting a new job can be intimidating for a variety of reasons, like starting from very practical things like learning how to actually do the work you've been hiring to do, getting to know your colleagues, and building trusting relationships with them, to a number of other things that have nothing to do with the job, and more to do with ourselves.

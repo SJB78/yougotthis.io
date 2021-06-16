@@ -10,7 +10,7 @@ speakers:
     twitter: oluoluoxenfree
     bio: Olu Niyi-Awosusi is a software engineer at the FT who loves lists, learning new things, Bee and Puppycat, and trying harder everyday.
     photo: olu-niyi-awosusi.jpg
-tags: ['you-got-this-from-your-couch', 'diversity-accessibility-&-inclusion' ]
+tags: ['you-got-this-from-your-couch', 'diversity-accessibility-inclusion' ]
 ---
 
 OLU: Hello! Hi, everyone. This is building an equitable web. It's my talk about web accessibility and social justice. So, what you should expect from this talk is an overview of a few different types of barriers we have on the web, and also an overview of a few things that you can do to help tackle it.

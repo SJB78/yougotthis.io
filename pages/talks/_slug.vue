@@ -136,14 +136,6 @@ export default {
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
     return { talk, eventLogo, tags, event }
   },
-  head() {
-    return {
-      script: [
-        { hid: 'mux', src: '/js/mux.js' },
-        { hid: 'hls', src: '/js/hls.js' },
-      ],
-    }
-  },
   mounted() {
     const source = `https://stream.mux.com/${this.talk.video}.m3u8`
     const video = document.querySelector('#video')

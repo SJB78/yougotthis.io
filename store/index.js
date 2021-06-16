@@ -1,7 +1,5 @@
 export const state = () => ({
   events: [
-    // TODO: Name organizing company, team & vendors
-
     {
       title: 'You Got This From Your Couch',
       date: '2021-01-15',
@@ -81,7 +79,7 @@ export const state = () => ({
     },
   ],
   tags: [
-    { name: 'diversity-accessibility-&-inclusion', type: 'theme' },
+    { name: 'diversity-accessibility-inclusion', type: 'theme' },
     { name: 'ethics-in-tech', type: 'theme' },
     { name: 'managers', type: 'theme' },
     { name: 'professional-development', type: 'theme' },

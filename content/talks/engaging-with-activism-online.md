@@ -11,7 +11,7 @@ speakers:
     twitter: lolaodelola
     bio: Lola Odelola is a Developer Advocate on the Samsung Internet team. She’s also a published poet, coder, wanderer, wonderer & anti-cheesecake activist.
     photo: lola-odelola.jpg
-tags: ['you-got-this-from-your-couch', 'diversity-accessibility-&-inclusion' ]
+tags: ['you-got-this-from-your-couch', 'diversity-accessibility-inclusion' ]
 ---
 
 LOLA: Good morning. I'm Lola, and please don't upset your neighbours. It's already a trying time, as it is! My neighbour is currently enjoying his Saturday and playing a lot of music, so I hope it's not disturbing anyone! Today, I'm going to be talking to you about engaging with activism on social media. It's going to be a quick lightning talk. There won't be time for any questions at the end, but I am on Discord, so feel free to chat to me there if you have any questions. I'm Lola, and I'm the host of Lost in the Source, which is a podcast about my journey as a Black woman through the tech industry. I'm also an anti-cheesecake activist. Don't argue with me about it, cheesecake is trash, and I stand by that! I'm not willing to die on that hill, but I will put a flag on that hill!
