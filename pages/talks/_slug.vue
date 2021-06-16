@@ -10,7 +10,7 @@
     <div>
       <video
         id="video"
-        class="w-full mt-4 lg:mt-10 border-2 border-pink-500"
+        class="w-full mt-4 lg:mt-16 border-2 border-pink-500"
         playsinline
         controls
         preload="metadata"
@@ -24,8 +24,15 @@
         >
       </p>
     </div>
-    <div class="flex flex-col-reverse lg:flex-row gap-8 lg:mt-16">
-      <!-- TODO: Fix GitHub URLs -->
+    <div
+      class="
+        flex flex-col-reverse
+        lg:grid lg:grid-cols-5
+        lg:flex-row
+        gap-8
+        lg:mt-16
+      "
+    >
       <main v-if="talk.body.children.length > 0" class="col-span-3">
         <h2 class="text-3xl font-bold">Transcript</h2>
         <small v-if="talk.transcript == 'machine'"

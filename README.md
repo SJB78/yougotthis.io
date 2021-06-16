@@ -27,3 +27,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Social Graph Images
 - [ ] Favicon & meta tags
 - [ ] Page with photos @nuxtjs/image?
+- [ ] Analytics
+- [ ] GitHub talk edit URLs

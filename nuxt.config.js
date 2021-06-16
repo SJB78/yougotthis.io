@@ -20,9 +20,6 @@ export default {
     '@nuxtjs/moment',
   ],
   modules: ['@nuxt/content', '@nuxtjs/feed', '@nuxtjs/markdownit'],
-  tailwindcss: {
-    jit: true,
-  },
   feed: [
     {
       path: '/feed.xml',
