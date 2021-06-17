@@ -137,9 +137,9 @@
 export default {
   async asyncData({ store, $content, params }) {
     const talk = await $content('talks', params.slug).fetch()
-    const event = store.state.events.find((e) => e.title === talk.event)
+    const event = store.state.events.past.find((e) => e.title === talk.event)
     const eventLogo = `/img/events/logos/${event.logo}`
-    const themeTags = store.state.tags.filter((t) => t.type === 'theme')
+    const themeTags = store.state.tags.list.filter((t) => t.type === 'theme')
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
     return { talk, eventLogo, tags, event }
   },

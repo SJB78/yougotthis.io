@@ -1,22 +1,44 @@
 <template>
-  <div class="wrapper grid grid-cols-5 gap-6 pb-14">
-    <aside class="col-span-2">
-      <div>
-        <img :src="`/img/events/og/${event.logo}`" alt="" />
-        <div class="bg-gray-100 p-4">
-          <h1 class="font-bold text-2xl">{{ event.title }}</h1>
-          <div class="space-x-4 text-sm my-2">
-            <span>{{ $moment(event.date).format('dddd MMMM Mo YYYY') }}</span>
-            <span>{{ event.location }}</span>
-            <span>{{ event.type }}</span>
-          </div>
-          <p>{{ event.short }}</p>
-          <a
-            class="btn"
-            :class="{ disabled: !event.register }"
-            :href="event.register"
-            >{{ event.register ? 'Get a ticket' : 'Tickets available soon' }}</a
+  <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14">
+    <aside class="lg:col-span-2 mb-8 lg:mb-0">
+      <img :src="`/img/events/og/${event.logo}`" alt="" />
+      <div class="bg-gray-100 p-4 border border-t-0 border-gray-300">
+        <h1 class="font-bold text-2xl">{{ event.title }}</h1>
+        <div class="space-x-4 text-sm my-2">
+          <span>{{ $moment(event.date).format('dddd MMMM Mo YYYY') }}</span>
+          <span>{{ event.location }}</span>
+          <span>{{ event.type }}</span>
+        </div>
+        <p>{{ event.short }}</p>
+        <a
+          class="btn"
+          :class="{ disabled: !event.register }"
+          :href="event.register"
+          >{{ event.register ? 'Get a ticket' : 'Tickets available soon' }}</a
+        >
+        <div v-if="event.sponsors">
+          <h2 class="mt-8 mb-2 font-bold text-lg">Event supported by</h2>
+          <div
+            class="grid gap-2 w-full"
+            :class="{
+              'grid-cols-2':
+                event.sponsors.length % 2 == 0 || event.sponsors.length == 1,
+              'grid-cols-3':
+                event.sponsors.length % 1 == 0 && event.sponsors.length > 1,
+            }"
           >
+            <a
+              v-for="sponsor of eventSponsors"
+              :key="sponsor.file"
+              :href="sponsor.url"
+            >
+              <img
+                :src="`/img/sponsors/${sponsor.file}.png`"
+                :alt="sponsor.name"
+                class="lazyload"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </aside>
@@ -55,9 +77,13 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, store, params }) {
     const event = await $content('events', params.slug).fetch()
-    return { event }
+    const allSponsors = store.state.sponsors.list
+    const eventSponsors = allSponsors.filter((sponsor) => {
+      return event.sponsors.find((e) => e === sponsor.file)
+    })
+    return { event, eventSponsors }
   },
 }
 </script>

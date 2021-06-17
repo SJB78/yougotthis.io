@@ -61,13 +61,17 @@
           lg:grid-cols-6
         "
       >
-        <img
-          v-for="sponsor of $store.state.sponsors"
-          :key="sponsor"
-          :src="`/img/sponsors/${sponsor}.png`"
-          :alt="sponsor"
-          class="lazyload"
-        />
+        <a
+          v-for="sponsor of $store.state.sponsors.list"
+          :key="sponsor.file"
+          :href="sponsor.url"
+        >
+          <img
+            :src="`/img/sponsors/${sponsor.file}.png`"
+            :alt="sponsor.name"
+            class="lazyload"
+          />
+        </a>
       </div>
     </div>
     <div class="wrapper mb-16">
@@ -80,7 +84,7 @@
 <script>
 export default {
   async asyncData({ $content, store }) {
-    const tags = store.state.tags.filter((tag) => tag.type === 'theme')
+    const tags = store.state.tags.list.filter((tag) => tag.type === 'theme')
     const talks = await $content('talks')
       .sortBy('date', 'desc')
       .where({

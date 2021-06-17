@@ -14,6 +14,11 @@
     status = 301
 
 [[redirects]]
+    from = "/tags/"
+    to = "/talks"
+    status = 301
+
+[[redirects]]
     from = "/tags/*"
     to = "/talks?tag=:splat"
     status = 301
@@ -47,6 +52,11 @@
     from = "/blog/"
     to = "https://dev.to/yougotthisconf"
     status = 301
+
+[[redirects]]
+    from = "/search/"
+    to = "/talks/"
+    status = 302
 
 [[redirects]]
     from = "/2020-birmingham-amina-adewusi/"

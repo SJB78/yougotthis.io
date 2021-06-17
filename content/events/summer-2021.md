@@ -6,6 +6,8 @@ location: Online
 date: 2021-08-12T18:00:00
 logo: summer.png
 register: '#'
+sponsors:
+  - balsamiq
 talks:
     - title: 'Standardizing Select: What the Future Holds for HTML Controls'
       abstract: Native HTML Form Controls can be some of the most painful elements to style and customize. 25 years after the first HTML Standard introduced them and developers have resorted to building custom controls from scratch to achieve what they need to. I’ll discuss the history behind native form controls, where we’re at presently with using CSS to style them and take a look at the proposed solutions by standards groups and browser vendors to standardize controls and solve the pain points developers have been complaining about for years.

@@ -25,7 +25,7 @@
 export default {
   async asyncData({ $content, store }) {
     const events = await $content('events').sortBy('date', 'asc').fetch()
-    const past = store.state.events
+    const past = store.state.events.past
     past.map((event) => {
       return { ...event, logo: `/img/events/og/${event.logo}` }
     })

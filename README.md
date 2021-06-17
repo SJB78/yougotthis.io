@@ -21,7 +21,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## To Do
 
-- [ ] Accessibility Features
+- [ ] Accessibility Features -> outline, dark mode, dyslexia mode
 - [ ] Ensure all URLs resolve
 - [ ] API notice on old website
 - [ ] Social Graph Images
@@ -29,3 +29,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Page with photos @nuxtjs/image?
 - [ ] Analytics
 - [ ] GitHub talk edit URLs
+- [ ] Video.js player on talk pages
+- [ ] Lazyload images
+- [ ] Sponsor links

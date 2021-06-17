@@ -46,8 +46,8 @@ export default {
   async asyncData({ $content, store }) {
     const talks = await $content('talks').sortBy('date', 'desc').fetch()
     const tags = {
-      events: store.state.tags.filter((tag) => tag.type === 'event'),
-      themes: store.state.tags.filter((tag) => tag.type === 'theme'),
+      events: store.state.tags.list.filter((tag) => tag.type === 'event'),
+      themes: store.state.tags.list.filter((tag) => tag.type === 'theme'),
     }
     return { talks, tags }
   },
