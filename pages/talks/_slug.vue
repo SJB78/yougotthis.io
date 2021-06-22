@@ -1,24 +1,25 @@
 <template>
   <div class="wrapper">
-    <script>
-      window.muxPlayerInitTime = Date.now()
-    </script>
     <h1 class="page-title">{{ talk.talk.title }}</h1>
     <p class="text-lg">
       Presented by {{ talk.speakers.map((s) => s.name).join(' & ') }}
     </p>
     <div>
-      <video
-        id="video"
-        class="w-full mt-4 lg:mt-16 border-2 border-pink-500"
-        playsinline
-        controls
-        preload="metadata"
-      ></video>
+      <div class="w-full mt-4 lg:mt-16 border-2 border-indigo-700">
+        <vue-plyr>
+          <video>
+            <source
+              ref="source"
+              type="application/x-mpegURL"
+              :src="`https://stream.mux.com/${talk.video}.m3u8`"
+            />
+          </video>
+        </vue-plyr>
+      </div>
       <p class="text-right text-sm text-gray-700 dark:text-white">
         Video hosting kindly provided by
         <a
-          class="text-pink-600 dark:text-white dark:underline"
+          class="text-indigo-700 dark:text-white dark:underline"
           href="https://mux.com/"
           >Mux - video for developers</a
         >
@@ -143,30 +144,14 @@ export default {
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
     return { talk, eventLogo, tags, event }
   },
-  mounted() {
-    const source = `https://stream.mux.com/${this.talk.video}.m3u8`
-    const video = document.querySelector('#video')
-    if (!Hls.isSupported()) { // eslint-disable-line
-      video.src = source
-    } else {
-      const hls = new Hls() // eslint-disable-line
-      hls.loadSource(source)
-      hls.attachMedia(video)
-      window.hls = hls
-    }
-    if (typeof mux !== 'undefined') {
-      mux.monitor('#video', { // eslint-disable-line
-        debug: false,
-        data: {
-          env_key: 'ebv8g7tenqkgho0bfb8ggg1s9',
-          video_title: this.talk.title,
-          player_init_time: window.muxPlayerInitTime,
-        },
-      })
-    }
-  },
 }
 </script>
+
+<style>
+:root {
+  --plyr-color-main: #4338ca;
+}
+</style>
 
 <style scoped>
 .tag {

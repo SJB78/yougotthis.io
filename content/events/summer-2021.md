@@ -5,7 +5,8 @@ type: Meetup
 location: Online
 date: 2021-08-12T18:00:00
 logo: summer.png
-register: '#'
+links:
+  - text: 'Register'
 sponsors:
   - balsamiq
   - orbit

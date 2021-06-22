@@ -10,12 +10,16 @@
           <span>{{ event.type }}</span>
         </div>
         <p>{{ event.short }}</p>
-        <a
-          class="btn"
-          :class="{ disabled: !event.register }"
-          :href="event.register"
-          >{{ event.register ? 'Get a ticket' : 'Tickets available soon' }}</a
-        >
+        <div>
+          <a
+            v-for="link in event.links"
+            :key="link.text"
+            class="btn"
+            :class="{ disabled: !link.url }"
+            :href="link.url"
+            >{{ link.text }}</a
+          >
+        </div>
         <div v-if="event.sponsors">
           <h2 class="mt-8 mb-2 font-bold text-lg">Event supported by</h2>
           <div
@@ -80,9 +84,12 @@ export default {
   async asyncData({ $content, store, params }) {
     const event = await $content('events', params.slug).fetch()
     const allSponsors = store.state.sponsors.list
-    const eventSponsors = allSponsors.filter((sponsor) => {
-      return event.sponsors.find((e) => e === sponsor.file)
-    })
+    let eventSponsors
+    if (event.sponsors) {
+      eventSponsors = allSponsors.filter((sponsor) => {
+        return event.sponsors.find((e) => e === sponsor.file)
+      })
+    }
     return { event, eventSponsors }
   },
 }
