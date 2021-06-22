@@ -14,7 +14,6 @@ export default {
     script: [{ src: '/js/mux.js' }, { src: '/js/hls.js' }],
   },
   components: true,
-  // css: ['~assets/css/plyr.css'],
   plugins: [{ src: '~/plugins/plyr.js', mode: 'client' }],
   buildModules: [
     '@nuxtjs/eslint-module',

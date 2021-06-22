@@ -144,6 +144,11 @@ export default {
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
     return { talk, eventLogo, tags, event }
   },
+  head() {
+    return {
+      link: [{ rel: 'stylesheet', href: '/css/plyr.css' }],
+    }
+  },
 }
 </script>
 
