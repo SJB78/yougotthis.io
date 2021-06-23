@@ -20,6 +20,7 @@
     "core-js": "^3.9.1",
     "netlify-cli": "^3.38.9",
     "nuxt": "^2.15.3",
+    "simple-analytics-vue": "^1.1.5",
     "vue-plyr": "^7.0.0"
   },
   "devDependencies": {

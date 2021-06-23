@@ -8,13 +8,73 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'A community event series focused on discussing core skills needed for a happy, healthy work life.',
+      },
+      {
+        name: 'msapplication-TileColor',
+        content: '#ec4899',
+      },
+      {
+        name: 'msapplication-config',
+        content: '/img/brand/browserconfig.xml',
+      },
+      {
+        name: 'theme-color',
+        content: '#ec4899',
+      },
+      {
+        property: 'og:image',
+        content: 'https://yougotthisconf-next.netlify.app/img/brand/og.png',
+      },
+      {
+        property: 'og:image:height',
+        content: '627',
+      },
+      {
+        property: 'og:image:width',
+        content: '1200',
+      },
+      {
+        property: 'og:title',
+        content: 'You Got This | Core Skills Events',
+      },
+      {
+        property: 'og:description',
+        content:
+          'A community event series focused on discussing core skills needed for a happy, healthy work life.',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{ src: '/js/mux.js' }, { src: '/js/hls.js' }],
+    link: [
+      { rel: 'shortcut icon', href: '/img/brand/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/img/brand/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/img/brand/favicon-16x16.png',
+      },
+      { rel: 'manifest', href: '/img/brand/site.webmanifest' },
+      {
+        rel: 'mask-icon',
+        href: '/img/brand/safari-pinned-tab.svg',
+        color: '#ec4899',
+      },
+    ],
   },
   components: true,
-  plugins: [{ src: '~/plugins/plyr.js', mode: 'client' }],
+  plugins: [
+    { src: '~/plugins/plyr.js', mode: 'client' },
+    { src: '~/plugins/simple-analytics.js', mode: 'client' },
+  ],
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
