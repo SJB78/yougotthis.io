@@ -1,8 +1,8 @@
 <template>
   <header class="bg-black text-white">
-    <div class="bg-green-400 text-white p-4">
+    <!-- <div class="bg-green-400 text-white p-4">
       Color mode: {{ $colorMode.value }}
-    </div>
+    </div> -->
     <div class="wrapper p-4 flex items-center">
       <a href="/" class="flex justify-start items-center flex-1">
         <img src="~/assets/img/fist.svg" alt="Fist logo" class="h-14" />
@@ -16,12 +16,18 @@
       </button>
     </div>
     <div class="bg-gradient-to-r from-pink-500 to-indigo-700 text-white">
-      <nav class="wrapper p-4">
-        <ul class="space-x-3 flex">
-          <li><nuxt-link to="/events">Events</nuxt-link></li>
-          <li><nuxt-link to="/talks">Talk Library</nuxt-link></li>
-          <li><nuxt-link to="/conduct">Code of Conduct</nuxt-link></li>
-          <li>
+      <nav class="wrapper w-screen p-4 overflow-x-scroll">
+        <ul class="flex space-x-4">
+          <li class="whitespace-nowrap">
+            <nuxt-link to="/events">Events</nuxt-link>
+          </li>
+          <li class="whitespace-nowrap">
+            <nuxt-link to="/talks">Talk Library</nuxt-link>
+          </li>
+          <li class="whitespace-nowrap">
+            <nuxt-link to="/conduct">Code of Conduct</nuxt-link>
+          </li>
+          <li class="whitespace-nowrap">
             <a href="/twitter">Twitter</a>
           </li>
         </ul>
