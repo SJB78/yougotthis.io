@@ -3,7 +3,9 @@
     <!-- <div class="bg-green-400 text-white p-4">
       Color mode: {{ $colorMode.value }}
     </div> -->
-    <div class="wrapper p-4 flex items-center">
+    <div
+      class="wrapper p-4 flex items-center flex-col gap-4 sm:flex-row sm:gap-0"
+    >
       <a href="/" class="flex justify-start items-center flex-1">
         <img src="~/assets/img/fist.svg" alt="Fist logo" class="h-14" />
         <div class="ml-4 inline-block">
@@ -27,7 +29,7 @@
           <li class="whitespace-nowrap">
             <nuxt-link to="/conduct">Code of Conduct</nuxt-link>
           </li>
-          <li class="whitespace-nowrap">
+          <li class="whitespace-nowrap pr-4">
             <a href="/twitter">Twitter</a>
           </li>
         </ul>

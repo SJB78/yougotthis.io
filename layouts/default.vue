@@ -14,7 +14,7 @@
 }
 
 .page-title {
-  @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+  @apply text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold;
   @apply leading-tight !important;
 }
 .page-subtitle {

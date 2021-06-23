@@ -47,7 +47,6 @@
               <img
                 :src="`/img/sponsors/${sponsor.file}.png`"
                 :alt="sponsor.name"
-                class="lazyload"
               />
             </a>
           </div>
