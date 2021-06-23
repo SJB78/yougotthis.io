@@ -20,8 +20,12 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
     '@nuxtjs/color-mode',
+    '@nuxt/image',
   ],
   modules: ['@nuxt/content', '@nuxtjs/feed', '@nuxtjs/markdownit'],
+  image: {
+    provider: 'netlify',
+  },
   feed: [
     {
       path: '/feed.xml',

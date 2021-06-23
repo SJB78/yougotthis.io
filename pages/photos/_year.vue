@@ -1,5 +1,5 @@
 <template>
   <div>
-    {{ $store.state.photos.photos }}
+    {{ $store.state.photos }}
   </div>
 </template>

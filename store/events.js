@@ -51,6 +51,7 @@ export const state = () => ({
       tag: 'you-got-this-birmingham-2020',
       url: 'https://2020.yougotthis.io',
       logo: '2020.png',
+      photos: '2020',
     },
     {
       title: 'Things I Wish I Knew',
@@ -76,6 +77,7 @@ export const state = () => ({
       tag: 'you-got-this-london-2019',
       url: 'https://2019.yougotthis.io',
       logo: '2019.png',
+      photos: '2019',
     },
   ],
 })
