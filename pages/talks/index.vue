@@ -5,7 +5,7 @@
       <label for="filter">Filter by theme or event</label>
       <select
         id="filter"
-        class="border-2 border-gray-400 focus:border-indigo-700"
+        class="border-2 border-gray-400 focus:border-indigo-700 dark:text-black"
         @change="changeFilter($event)"
       >
         <option value="all">Show All</option>

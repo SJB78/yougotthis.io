@@ -19,6 +19,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
+    '@nuxtjs/color-mode',
   ],
   modules: ['@nuxt/content', '@nuxtjs/feed', '@nuxtjs/markdownit'],
   feed: [
@@ -50,4 +51,7 @@ export default {
       },
     },
   ],
+  colorMode: {
+    classSuffix: '',
+  },
 }

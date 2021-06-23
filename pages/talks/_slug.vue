@@ -63,7 +63,7 @@
           </p>
         </small>
         <article>
-          <nuxt-content :document="talk" class="prose mt-4 max-w-full" />
+          <nuxt-content :document="talk" class="prose mt-4 max-w-full mb-16" />
         </article>
       </main>
       <aside
@@ -106,7 +106,7 @@
               <a
                 v-if="speaker.twitter"
                 :href="`https://twitter.com/${speaker.twitter}`"
-                class="text-gray-700 text-sm block"
+                class="text-gray-700 dark:text-gray-200 text-sm block"
               >
                 @{{ speaker.twitter }}
               </a>
@@ -120,7 +120,7 @@
             <img :src="eventLogo" :alt="`${talk.event} logo`" class="h-10" />
             <div>
               <p>{{ talk.event }}</p>
-              <span class="text-gray-700 text-sm block">{{
+              <span class="text-gray-700 dark:text-gray-200 text-sm block">{{
                 $moment(talk.date).format('Do MMM YYYY')
               }}</span>
             </div>
@@ -160,7 +160,7 @@ export default {
 
 <style scoped>
 .tag {
-  @apply inline-block rounded-full px-3 py-1 text-sm mr-2 mb-2 bg-indigo-100 lowercase text-center;
+  @apply inline-block rounded-full px-3 py-1 text-sm mr-2 mb-2 bg-indigo-100 lowercase text-center text-black;
 }
 .tag-upper {
   @apply capitalize !important;

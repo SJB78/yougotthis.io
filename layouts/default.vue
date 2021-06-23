@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col dark:bg-black dark:text-white">
     <TheHeader />
     <div class="flex-1 w-full pt-16">
       <Nuxt />
@@ -20,5 +20,9 @@
 .page-subtitle {
   @apply text-2xl md:text-3xl lg:text-4xl font-bold;
   @apply leading-tight !important;
+}
+
+html.dark .prose * {
+  @apply text-white;
 }
 </style>

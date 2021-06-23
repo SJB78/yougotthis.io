@@ -1,6 +1,9 @@
 <template>
   <header class="bg-black text-white">
-    <div class="wrapper p-4 flex">
+    <div class="bg-green-400 text-white p-4">
+      Color mode: {{ $colorMode.value }}
+    </div>
+    <div class="wrapper p-4 flex items-center">
       <a href="/" class="flex justify-start items-center flex-1">
         <img src="~/assets/img/fist.svg" alt="Fist logo" class="h-14" />
         <div class="ml-4 inline-block">
@@ -8,6 +11,9 @@
           <p class="text-sm">Let's talk about core skills</p>
         </div>
       </a>
+      <button class="bg-pink-500 px-3 py-1" @click="themeButton.toggle">
+        {{ themeButton.text }}
+      </button>
     </div>
     <div class="bg-gradient-to-r from-pink-500 to-indigo-700 text-white">
       <nav class="wrapper p-4">
@@ -23,3 +29,18 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  computed: {
+    themeButton() {
+      const c = this.$colorMode.value
+      const text = `Enable ${c === 'light' ? 'Dark' : 'Light'} Mode`
+      const toggle = () => {
+        this.$colorMode.preference = c === 'light' ? 'dark' : 'light'
+      }
+      return { text, toggle }
+    },
+  },
+}
+</script>

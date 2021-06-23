@@ -2,7 +2,15 @@
   <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14">
     <aside class="lg:col-span-2 mb-8 lg:mb-0">
       <img :src="`/img/events/og/${event.logo}`" alt="" />
-      <div class="bg-gray-100 p-4 border border-t-0 border-gray-300">
+      <div
+        class="
+          bg-gray-100
+          dark:bg-gray-800
+          p-4
+          border border-t-0 border-gray-300
+          dark:border-gray-600
+        "
+      >
         <h1 class="font-bold text-2xl">{{ event.title }}</h1>
         <div class="space-x-4 text-sm my-2">
           <span>{{ $moment(event.date).format('dddd MMMM Mo YYYY') }}</span>
@@ -51,9 +59,15 @@
       <div
         v-for="talk in event.talks"
         :key="talk.title"
-        class="mb-4 bg-gray-100 border border-gray-300"
+        class="
+          mb-4
+          bg-gray-100
+          border border-gray-300
+          dark:bg-gray-800
+          dark:border-gray-600
+        "
       >
-        <div class="p-4 border-b border-gray-300">
+        <div class="p-4 border-b border-gray-300 dark:border-gray-600">
           <h2 class="text-xl mb-2 font-bold">{{ talk.title }}</h2>
           <h3 class="flex items-center">
             <span>{{ talk.speaker.name }}</span>
@@ -68,7 +82,7 @@
         <div class="p-4">
           <p>{{ talk.abstract }}</p>
         </div>
-        <div class="p-4 border-t border-gray-300">
+        <div class="p-4 border-t border-gray-300 dark:border-gray-600">
           <details class="cursor-pointer">
             <summary>About {{ talk.speaker.name }}</summary>
             <p class="mt-2">{{ talk.speaker.bio }}</p>

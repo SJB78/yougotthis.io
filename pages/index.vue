@@ -106,6 +106,6 @@ export default {
 
 <style scoped>
 .tag a {
-  @apply bg-indigo-100 mr-4 mb-4 text-base lg:text-xl py-1 px-4 lg:py-2 rounded-full inline-block;
+  @apply bg-indigo-100 mr-4 mb-4 text-base lg:text-xl py-1 px-4 lg:py-2 rounded-full inline-block dark:bg-gray-800;
 }
 </style>
