@@ -12,11 +12,10 @@
         :key="photo.filename"
         :to="`/photos/${event.photos}/${photo.filename.split('.')[0]}`"
         class="mb-2 inline-block"
+        width="300px"
+        quality="50"
       >
-        <nuxt-img
-          :src="`/img/photos/${event.photos}/${photo.filename}`"
-          width="100%"
-        />
+        <nuxt-img :src="`/img/photos/${event.photos}/${photo.filename}`" />
       </nuxt-link>
     </div>
   </div>

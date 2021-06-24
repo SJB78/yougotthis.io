@@ -9,7 +9,7 @@
     <div class="mb-16 mt-4 lg:mt-16">
       <nuxt-img
         :src="`/img/photos/${event.photos}/${photo.filename}`"
-        width="100%"
+        width="1100px"
       />
       <p class="mt-4">{{ photo.alt }}</p>
     </div>

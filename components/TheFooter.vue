@@ -14,7 +14,7 @@
         <li class="whitespace-nowrap"><a href="/feed.xml">RSS</a></li>
         <li class="whitespace-nowrap"><a href="api">API</a></li>
         <li class="whitespace-nowrap"><a href="/twitter">Twitter</a></li>
-        <li class="whitespace-nowrap pr-1"><a href="/discord">Discord</a></li>
+        <li class="whitespace-nowrap pr-4"><a href="/discord">Discord</a></li>
       </ul>
     </div>
     <div class="wrapper p-4">
