@@ -93,7 +93,7 @@ export const state = () => ({
     {
       file: 'mozilla',
       name: 'Mozilla',
-      url: 'https://monzo.com',
+      url: 'https://mozilla.org',
     },
     {
       file: 'mux',
