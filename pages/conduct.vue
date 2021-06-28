@@ -11,5 +11,10 @@ export default {
     const content = await $content('static', 'conduct').fetch()
     return { content }
   },
+  head() {
+    return {
+      title: `${this.content.title} | ${process.env.title}`,
+    }
+  },
 }
 </script>

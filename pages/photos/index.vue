@@ -25,5 +25,10 @@ export default {
       })
     return { events }
   },
+  head() {
+    return {
+      title: `Photos | ${process.env.title}`,
+    }
+  },
 }
 </script>

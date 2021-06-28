@@ -1,7 +1,9 @@
+const title = 'You Got This | Core Skills Events'
+const baseUrl = 'https://yougotthisconf-next.netlify.app'
 export default {
   target: 'static',
   head: {
-    title: 'You Got This | Core Skills Events',
+    title,
     htmlAttrs: {
       lang: 'en',
     },
@@ -27,8 +29,9 @@ export default {
         content: '#ec4899',
       },
       {
+        hid: 'og:image',
         property: 'og:image',
-        content: 'https://yougotthisconf-next.netlify.app/img/brand/og.png',
+        content: baseUrl + '/img/brand/main.png',
       },
       {
         property: 'og:image:height',
@@ -39,10 +42,7 @@ export default {
         content: '1200',
       },
       {
-        property: 'og:title',
-        content: 'You Got This | Core Skills Events',
-      },
-      {
+        hid: 'og:description',
         property: 'og:description',
         content:
           'A community event series focused on discussing core skills needed for a happy, healthy work life.',
@@ -117,5 +117,9 @@ export default {
   ],
   colorMode: {
     classSuffix: '',
+  },
+  env: {
+    title,
+    baseUrl,
   },
 }

@@ -147,6 +147,12 @@ export default {
   head() {
     return {
       link: [{ rel: 'stylesheet', href: '/css/plyr.css' }],
+      title: `${this.talk.talk.title} | ${process.env.title}`,
+      meta: {
+        hid: 'og:image',
+        property: 'og:image',
+        content: process.env.baseUrl + '/img/brand/talks.png',
+      },
     }
   },
 }

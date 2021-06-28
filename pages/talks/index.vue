@@ -56,6 +56,16 @@ export default {
       filter: 'all',
     }
   },
+  head() {
+    return {
+      title: `Talk Library | ${process.env.title}`,
+      meta: {
+        hid: 'og:image',
+        property: 'og:image',
+        content: process.env.baseUrl + '/img/brand/talks.png',
+      },
+    }
+  },
   computed: {
     filteredTalks() {
       if (this.filter === 'all') return this.talks

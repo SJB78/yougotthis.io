@@ -31,6 +31,11 @@ export default {
     const photos = store.state.photos[params.slug]
     return { event, photos }
   },
+  head() {
+    return {
+      title: `Photos | ${process.env.title}`,
+    }
+  },
 }
 </script>
 

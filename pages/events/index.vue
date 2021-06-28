@@ -31,5 +31,15 @@ export default {
     })
     return { events, past }
   },
+  head() {
+    return {
+      title: `Events | ${process.env.title}`,
+      meta: {
+        hid: 'og:image',
+        property: 'og:image',
+        content: process.env.baseUrl + '/img/brand/events.png',
+      },
+    }
+  },
 }
 </script>

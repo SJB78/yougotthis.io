@@ -11,23 +11,23 @@ sponsors:
   - balsamiq
   - orbit
 talks:
-    - title: 'Standardizing Select: What the Future Holds for HTML Controls'
-      abstract: Native HTML Form Controls can be some of the most painful elements to style and customize. 25 years after the first HTML Standard introduced them and developers have resorted to building custom controls from scratch to achieve what they need to. I’ll discuss the history behind native form controls, where we’re at presently with using CSS to style them and take a look at the proposed solutions by standards groups and browser vendors to standardize controls and solve the pain points developers have been complaining about for years.
+    - title: 'The What, How, and Why of a Code of Ethics'
+      abstract: "In this talk we will cover what's in a code of ethics, and why should you care about it. Go behind the scenes with an ethicist and co-author of the Association of Computing Machinery's (ACM) new code of ethics that affects hundreds of thousands of computing professionals and get some answers to the following: What is a Code of Ethics? Why bother updating the old code, or having one at all? What's the code asking me to do, and why? How can I practically use the code? How did you decide whether something is good or bad, or whether something should be included in the code? What if my boss thinks codes of ethics are for losers? What if I work in the military/security/etc. domain? How is this code different from all the other codes out there? What happens if I break the Code of Ethics?"
       speaker:
-        name: Stephanie Stimac
-        twitter: seaotta
-        bio: Stephanie is a Design Technologist and Program Manager for Microsoft Edge Developer Experiences. Her design and program management work has been focused on improving the tools developers use to build for the web, including the browser developer tools and the open source project [webhint.io](https://webhint.io), which she was the lead designer for. She is passionate about web standards and the open web. She co-leads The Web We Want initiative to help drive the web platform forward.
-    - title: 'Designing In The Browser... Wait, Not Like That!'
-      abstract: CSS is a visual styling language which we author with text/code. While code is the most flexible way, sometimes, it feels like we’re on the wrong abstraction level. It wasn’t always like that though. And I hope it doesn’t stay that way forever. Let’s talk about the past, the present and the great renaissance that is upon us.
+        name: Catherine Flick
+        twitter: CatherineFlick
+        bio: Dr Catherine Flick is a Reader in Computing and Social Responsibility in the Centre for Computing and Social Responsibility at De Montfort University. She is very excited about the social and ethical impact of technologies, and how we can make sure that development of a new technology creates a positive impact.
+    - title: 'What Civil Engineering Can Teach Us About Ethics'
+      abstract: Contemporary software engineering is at a crucial juncture in the evolution as a discipline. We’re professionalizing and expanding our abilities, but in doing so we’re encountering dramatic new risks and venturing into new ethical territory. In this way, we share similarities with the expansion of traditional civil engineering during the industrial revolution. In this talk I’ll discuss what lessons can we learn from that industry, and how we can try to avoid making some of the same mistakes. I’ll also give a basic introduction to engineering ethics, discuss some examples of ethical problems from my own career, and explore how we can try to improve our ethical decision-making by incorporating ethical reasoning into the different stages of our work.
       speaker:
-        name: Siddharth Kshetrapal
-        twitter: siddharthkp
-        bio: Sid is a frontend developer passionate about developer tooling. He currently splits his time between building UI at codesandbox and exploring better frontend tooling with ui-devtools. He liked to play football in the “before times” and has a new found appreciation for long walks in nature.
-    - title: 'The History Of Container Queries'
-      abstract: The idea of container queries has been floating around for at least a decade. Let’s take a look at the evolution of this idea, the challenges, why it hasn’t been implemented, its future, and algorithmic layouts we can achieve with CSS today.
+        name: Richard Westenra
+        twitter: RichardWestenra
+        bio: Lorem ipsum
+    - title: 'How to Align Your Values With Your Job'
+      abstract: Lorem ipsum
       speaker:
-        name: Mike Riethmuller
-        twitter: MikeRiethmuller
-        bio: Mike is a CSS aficionado and co-creator of the unofficial official CSS Gif. He enjoys making rad web stuff with rad people and been contracting, consulting or freelancing for the last 10 years or so, but still has no idea which one it is. Mike lives in Sydney Australia and has been stranded on this island for more than a year. He’s not sure how the rest of the world is doing but personally he’s well past the making friends with a volleyball stage of Covid isolation. And misses London terribly.
-
+        name: Laura Morinigo
+        twitter: thisislalaok
+        bio: Lorem ipsum
+css: "body {background: white;}"
 ---

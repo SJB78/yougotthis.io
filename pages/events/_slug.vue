@@ -73,6 +73,7 @@
             <a
               v-if="talk.speaker.twitter"
               :href="`https://twitter.com/${talk.speaker.twitter}`"
+              aria-label="Twitter"
             >
               <Twitter class="h-4 ml-2" />
             </a>
@@ -89,6 +90,9 @@
         </div>
       </div>
     </main>
+    <style v-if="event.css">
+      {{event.css}}
+    </style>
   </div>
 </template>
 
@@ -104,6 +108,29 @@ export default {
       })
     }
     return { event, eventSponsors }
+  },
+  head() {
+    const image = this.event.image ? this.event.image : '/img/brand/events.png'
+    return {
+      title: `${this.event.title} | ${process.env.title}`,
+      meta: [
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: process.env.baseUrl + image,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.event.short,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.event.short,
+        },
+      ],
+    }
   },
 }
 </script>

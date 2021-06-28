@@ -11,4 +11,5 @@ links:
   - text: 'Submit a Talk'
     url: '#'
   - text: 'Tickets available soon'
+photo: '/img/events/og/cyberspace.png'
 ---
