@@ -1,9 +1,4 @@
 [[redirects]]
-    from = "/api"
-    to = "https://archive.yougotthis.io/api"
-    status = 301
-
-[[redirects]]
     from = "/api/"
     to = "https://archive.yougotthis.io/api"
     status = 301
@@ -26,36 +21,6 @@
 [[redirects]]
     from = "/tags/*"
     to = "/talks?tag=:splat"
-    status = 301
-
-[[redirects]]
-    from = "/discord/"
-    to = "https://discord.gg/Jg358Wu"
-    status = 301
-
-[[redirects]]
-    from = "/report/"
-    to = "https://airtable.com/shrRj0Ed5giqsSfqx"
-    status = 301
-
-[[redirects]]
-    from = "/newsletter/"
-    to = "https://buttondown.email/yougotthisconf"
-    status = 301
-
-[[redirects]]
-    from = "/twitter/"
-    to = "https://twitter.com/yougotthisconf"
-    status = 301
-
-[[redirects]]
-    from = "/github/"
-    to = "https://github.com/yougotthisconf"
-    status = 301
-
-[[redirects]]
-    from = "/blog/"
-    to = "https://dev.to/yougotthisconf"
     status = 301
 
 [[redirects]]

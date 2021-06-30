@@ -3,10 +3,12 @@ title: "You Got This Through the Seasons: Summer 2021"
 short: As days begin to get shorter let's focus on technology's societal and ethical impacts. This event is run by Olu Niyi-Awosusi & Kevin Lewis.
 type: Meetup
 location: Online
-date: 2021-08-12T18:00:00
-logo: summer.png
+date: 2021-08-12
+time: '5PM UTC'
+logo: summer.jpg
 links:
   - text: 'Register'
+    url: '#'
 sponsors:
   - balsamiq
   - orbit
@@ -22,12 +24,22 @@ talks:
       speaker:
         name: Richard Westenra
         twitter: RichardWestenra
-        bio: Lorem ipsum
+        bio: "Richard is a creative front-end dev specializing in interactive dataviz. He often works with React, D3, CSS, SVG and Canvas, and is passionate about accessibility, animation, web standards, performance, usability, and engineering ethics. After living in London for ten years, he has recently moved back home to New Zealand, and is getting to grips with extremely remote working."
     - title: 'How to Align Your Values With Your Job'
-      abstract: Lorem ipsum
+      abstract: "Every time we land a new job, the excitement is there: new beginnings, a new opportunity, the chance to grow... but how can we keep this motivation during our journey and take it further from the newbie stage?  Aligning your values within your workplace can be the answer. During this talk, we will learn how to recognize our own values and take them to our workplace (and step up when we don't find them) to achieve a greater commitment and satisfaction in our careers."
       speaker:
         name: Laura Morinigo
         twitter: thisislalaok
-        bio: Lorem ipsum
-css: "body {background: white;}"
+        bio: Laura is a software developer, advocate, and mentor.  She has been recognized as a Google Developer Expert and a Woman Techmakers Ambassador, as a mentor she helped startups participating in accelerator programs like Google Launchpad and the World Food Programme by the United Nations.  Currently, she is a web developer advocate for Samsung Internet at Samsung Research Institute UK where the team contributes to open source projects, builds demos and participates in conferences getting the word out about advanced web features helping web developers to create great and more inclusive web apps.
+cssFile: '/fonts/eyeful.css'
+css: |
+  .btn{background-color:#fe8296!important;}
+  .header-bar,.footer-bar{background:#75cdd7!important;}
+  html:not(.dark) .talk:first-child{background:#ffe89f; border-color: #ffca27;}
+  html:not(.dark) .talk:first-child * {border-color: #ffca27;}
+  html:not(.dark) .talk:nth-child(2){background:#bfe8ef; border-color: #75cdd7;}
+  html:not(.dark) .talk:nth-child(2) * {border-color: #75cdd7;}
+  html:not(.dark) .talk:last-child{background:#ffced7; border-color: #fe8296;}
+  html:not(.dark) .talk:last-child * {border-color: #fe8296;}
+  .event-meta h1, .talk h2 {font-family:'Eyeful',sans-serif;}
 ---

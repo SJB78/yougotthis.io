@@ -59,11 +59,13 @@ export default {
   head() {
     return {
       title: `Talk Library | ${process.env.title}`,
-      meta: {
-        hid: 'og:image',
-        property: 'og:image',
-        content: process.env.baseUrl + '/img/brand/talks.png',
-      },
+      meta: [
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: process.env.baseUrl + '/img/brand/talks.png',
+        },
+      ],
     }
   },
   computed: {

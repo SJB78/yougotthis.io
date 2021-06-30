@@ -9,11 +9,15 @@
           p-4
           border border-t-0 border-gray-300
           dark:border-gray-600
+          event-meta
         "
       >
-        <h1 class="font-bold text-2xl">{{ event.title }}</h1>
+        <h1 class="text-4xl">{{ event.title }}</h1>
         <div class="space-x-4 text-sm my-2">
-          <span>{{ $moment(event.date).format('dddd MMMM Mo YYYY') }}</span>
+          <span
+            >{{ $moment(event.date).format('dddd MMMM Do YYYY') }}
+            {{ event.time }}</span
+          >
           <span>{{ event.location }}</span>
           <span>{{ event.type }}</span>
         </div>
@@ -64,10 +68,11 @@
           border border-gray-300
           dark:bg-gray-800
           dark:border-gray-600
+          talk
         "
       >
         <div class="p-4 border-b border-gray-300 dark:border-gray-600">
-          <h2 class="text-xl mb-2 font-bold">{{ talk.title }}</h2>
+          <h2 class="text-3xl mb-2">{{ talk.title }}</h2>
           <h3 class="flex items-center">
             <span>{{ talk.speaker.name }}</span>
             <a
@@ -111,6 +116,9 @@ export default {
   },
   head() {
     const image = this.event.image ? this.event.image : '/img/brand/events.png'
+    const link = []
+    if (this.event.cssFile)
+      link.push({ rel: 'stylesheet', href: this.event.cssFile })
     return {
       title: `${this.event.title} | ${process.env.title}`,
       meta: [
@@ -130,6 +138,7 @@ export default {
           content: this.event.short,
         },
       ],
+      link,
     }
   },
 }

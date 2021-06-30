@@ -44,10 +44,12 @@
         </svg>
       </button>
     </div>
-    <div class="bg-gradient-to-r from-pink-500 to-indigo-700 text-white">
-      <nav class="wrapper w-screen p-4 overflow-x-scroll">
-        <ul class="flex space-x-4">
-          <li class="whitespace-nowrap">
+    <div
+      class="bg-gradient-to-r from-pink-500 to-indigo-700 text-white header-bar"
+    >
+      <nav class="wrapper w-screen p-4">
+        <ul class="flex flex-wrap gap-4">
+          <li class="whitespace-owrap">
             <nuxt-link to="/events">Events</nuxt-link>
           </li>
           <li class="whitespace-nowrap">
@@ -57,7 +59,7 @@
             <nuxt-link to="/conduct">Code of Conduct</nuxt-link>
           </li>
           <li class="whitespace-nowrap pr-4">
-            <a href="/twitter">Twitter</a>
+            <a href="https://twitter.com/yougotthisconf">Twitter</a>
           </li>
         </ul>
       </nav>

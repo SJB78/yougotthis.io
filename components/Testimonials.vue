@@ -11,11 +11,11 @@
       >
         <div
           class="
-            py-12
+            pt-4
+            pb-8
             px-4
             sm:px-6
             md:flex md:flex-col
-            md:py-16
             md:pl-0
             md:pr-10
             md:border-r md:border-gray-200
@@ -80,11 +80,11 @@
         </div>
         <div
           class="
-            py-12
+            pt-4
+            pb-8
             px-4
             border-t-2 border-gray-200
             sm:px-6
-            md:py-16
             md:pr-0
             md:pl-10
             md:border-t-0 md:border-l

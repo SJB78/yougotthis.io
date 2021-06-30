@@ -71,7 +71,7 @@ Please do not use excessive curse words. Additionally, do not use graphic sexual
 
 ## Reporting
 
-If you are being harassed by a member of the You Got This community, or if you observe someone else being harassed, please report the behaviour using our [Code of Conduct Report Form](/report).
+If you are being harassed by a member of the You Got This community, or if you observe someone else being harassed, please report the behaviour using our [Code of Conduct Report Form](https://airtable.com/shrRj0Ed5giqsSfqx).
 
 ### Thanks
 This code of conduct is hugely inspired by Quest, who in turn provides credit to Scripto, the #botALLY Code of Conduct, the LGBTQ in Tech code of Conduct, and the XOXO Code of Conduct.
