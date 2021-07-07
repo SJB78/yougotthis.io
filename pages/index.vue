@@ -66,7 +66,11 @@
           :key="sponsor.file"
           :href="sponsor.url"
         >
-          <img :src="`/img/sponsors/${sponsor.file}.png`" :alt="sponsor.name" />
+          <nuxt-img
+            :src="`/img/sponsors/${sponsor.file}.png`"
+            :alt="sponsor.name"
+            width="200px"
+          />
         </a>
       </div>
     </div>

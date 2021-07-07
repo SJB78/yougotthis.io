@@ -1,7 +1,11 @@
 <template>
   <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14">
     <aside class="lg:col-span-2 mb-8 lg:mb-0">
-      <img :src="`/img/events/og/${event.logo}`" alt="" />
+      <nuxt-img
+        :src="`/img/events/og/${event.logo}`"
+        alt=""
+        sizes="lg:450px sm:100vw"
+      />
       <div
         class="
           bg-gray-100
@@ -39,7 +43,7 @@
             :class="{
               'grid-cols-2':
                 event.sponsors.length % 2 == 0 || event.sponsors.length == 1,
-              'grid-cols-3':
+              'grid-cols-2 sm:grid-cols-3':
                 event.sponsors.length % 1 == 0 && event.sponsors.length > 1,
             }"
           >
@@ -48,9 +52,10 @@
               :key="sponsor.file"
               :href="sponsor.url"
             >
-              <img
+              <nuxt-img
                 :src="`/img/sponsors/${sponsor.file}.png`"
                 :alt="sponsor.name"
+                class="w-full"
               />
             </a>
           </div>
