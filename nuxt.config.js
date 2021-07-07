@@ -26,7 +26,7 @@ export default {
       },
       {
         name: 'theme-color',
-        content: '#ec4899',
+        content: '#000000',
       },
       {
         hid: 'og:image',

@@ -49,16 +49,13 @@
     >
       <nav class="wrapper w-screen p-4">
         <ul class="flex flex-wrap gap-4">
-          <li class="whitespace-owrap">
+          <li>
             <nuxt-link to="/events">Events</nuxt-link>
           </li>
-          <li class="whitespace-nowrap">
+          <li>
             <nuxt-link to="/talks">Talk Library</nuxt-link>
           </li>
-          <li class="whitespace-nowrap">
-            <nuxt-link to="/conduct">Code of Conduct</nuxt-link>
-          </li>
-          <li class="whitespace-nowrap pr-4">
+          <li>
             <a href="https://twitter.com/yougotthisconf">Twitter</a>
           </li>
         </ul>

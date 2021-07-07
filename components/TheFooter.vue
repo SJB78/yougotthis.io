@@ -5,6 +5,9 @@
     >
       <ul class="wrapper p-4 flex gap-4 flex-wrap">
         <li>
+          <nuxt-link to="/conduct">Code of Conduct</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/run">Run Your Own</nuxt-link>
         </li>
         <li>

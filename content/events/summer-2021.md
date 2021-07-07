@@ -12,6 +12,7 @@ links:
 sponsors:
   - balsamiq
   - orbit
+  - samsung-internet
 talks:
     - title: 'The What, How, and Why of a Code of Ethics'
       abstract: "In this talk we will cover what's in a code of ethics, and why should you care about it. Go behind the scenes with an ethicist and co-author of the Association of Computing Machinery's (ACM) new code of ethics that affects hundreds of thousands of computing professionals and get some answers to the following: What is a Code of Ethics? Why bother updating the old code, or having one at all? What's the code asking me to do, and why? How can I practically use the code? How did you decide whether something is good or bad, or whether something should be included in the code? What if my boss thinks codes of ethics are for losers? What if I work in the military/security/etc. domain? How is this code different from all the other codes out there? What happens if I break the Code of Ethics?"
@@ -34,7 +35,8 @@ talks:
 cssFile: '/fonts/eyeful.css'
 css: |
   .btn{background-color:#fe8296!important;}
-  .header-bar,.footer-bar{background:#75cdd7!important;}
+  .header-bar,.footer-bar{background:#ffca27!important;}
+  .header-bar a, .footer-bar a { color: black; }
   html:not(.dark) .talk:first-child{background:#ffe89f; border-color: #ffca27;}
   html:not(.dark) .talk:first-child * {border-color: #ffca27;}
   html:not(.dark) .talk:nth-child(2){background:#bfe8ef; border-color: #75cdd7;}
