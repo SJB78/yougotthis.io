@@ -17,16 +17,31 @@
         "
       >
         <h1 class="text-4xl">{{ event.title }}</h1>
-        <div class="space-x-4 text-sm my-2">
-          <span
+        <div class="text-sm my-2">
+          <span class="block mr-4 mb-2"
             >{{ $moment(event.date).format('dddd MMMM Do YYYY') }}
             {{ event.time }}</span
           >
-          <span>{{ event.location }}</span>
+          <span class="mr-4">{{ event.location }}</span>
           <span>{{ event.type }}</span>
         </div>
         <p>{{ event.short }}</p>
-        <div>
+        <div v-if="event.luma">
+          <a
+            :href="`https://lu.ma/event/${event.luma}`"
+            class="btn"
+            data-luma-action="checkout"
+            :data-luma-event-id="event.luma"
+          >
+            Register for Event
+          </a>
+
+          <script
+            id="luma-checkout"
+            src="https://embed.lu.ma/checkout-button.js"
+          ></script>
+        </div>
+        <div v-if="event.links">
           <a
             v-for="link in event.links"
             :key="link.text"
@@ -148,6 +163,21 @@ export default {
   },
 }
 </script>
+
+<style>
+.luma-checkout--close-btn {
+  @apply bg-[#f6f9fc] w-8 h-8 !important;
+  background-image: url('/img/x.svg') !important;
+  background-size: 75% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border: 1px solid rgba(191, 203, 218, 0.125) !important;
+}
+
+.luma-spinner {
+  display: none !important;
+}
+</style>
 
 <style scoped>
 .btn {

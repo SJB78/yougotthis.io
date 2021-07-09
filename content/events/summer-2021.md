@@ -1,18 +1,16 @@
 ---
 title: "You Got This Through the Seasons: Summer 2021"
-short: As days begin to get shorter let's focus on technology's societal and ethical impacts. This event is run by Olu Niyi-Awosusi & Kevin Lewis.
+short: As days begin to get shorter let's focus on technology's societal and ethical impacts.
 type: Meetup
 location: Online
 date: 2021-08-12
 time: '5PM UTC'
 logo: summer.jpg
-links:
-  - text: 'Register'
-    url: '#'
 sponsors:
   - balsamiq
   - orbit
   - samsung-internet
+luma: evt-87iOUlgGddGq968
 talks:
     - title: 'The What, How, and Why of a Code of Ethics'
       abstract: "In this talk we will cover what's in a code of ethics, and why should you care about it. Go behind the scenes with an ethicist and co-author of the Association of Computing Machinery's (ACM) new code of ethics that affects hundreds of thousands of computing professionals and get some answers to the following: What is a Code of Ethics? Why bother updating the old code, or having one at all? What's the code asking me to do, and why? How can I practically use the code? How did you decide whether something is good or bad, or whether something should be included in the code? What if my boss thinks codes of ethics are for losers? What if I work in the military/security/etc. domain? How is this code different from all the other codes out there? What happens if I break the Code of Ethics?"

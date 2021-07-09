@@ -43,7 +43,7 @@
             any, please feel free to
             <a
               class="text-pink-600 dark:text-white dark:underline"
-              :href="`https://github.com/yougotthisconf/yougotthis.io/tree/main/${talk.slug}`"
+              :href="`https://github.com/yougotthisconf/delta.yougotthis.io/tree/main/content/talks/${talk.slug}.md`"
               >submit a pull request</a
             >
             with amendments.
@@ -56,7 +56,7 @@
             any, please feel free to
             <a
               class="text-pink-600 dark:text-white dark:underline"
-              :href="`https://github.com/yougotthisconf/yougotthis.io/tree/main/${talk.slug}`"
+              :href="`https://github.com/yougotthisconf/delta.yougotthis.io/tree/main/content/talks/${talk.slug}.md`"
               >submit a pull request</a
             >
             with amendments.
