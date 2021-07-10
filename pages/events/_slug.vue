@@ -80,6 +80,19 @@
 
     <main class="col-span-3">
       <div
+        v-for="section in event.before"
+        :key="section.content"
+        class="
+          mb-4
+          bg-gray-100
+          border border-gray-300
+          dark:bg-gray-800
+          dark:border-gray-600
+        "
+      >
+        <div class="p-4" v-html="section.content"></div>
+      </div>
+      <div
         v-for="talk in event.talks"
         :key="talk.title"
         class="
@@ -115,20 +128,17 @@
         </div>
       </div>
       <div
-        v-if="event.after"
+        v-for="section in event.after"
+        :key="section.content"
         class="
           mb-4
           bg-gray-100
           border border-gray-300
           dark:bg-gray-800
           dark:border-gray-600
-          talk
         "
       >
-        <div
-          class="p-4 border-b border-gray-300 dark:border-gray-600"
-          v-html="event.after"
-        ></div>
+        <div class="p-4" v-html="section.content"></div>
       </div>
     </main>
     <style v-if="event.css">
