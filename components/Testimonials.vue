@@ -3,151 +3,105 @@
     <h2 class="text-2xl lg:text-4xl font-bold mb-4">
       These folks like what we do.
     </h2>
-    <section
-      class="bg-gradient-to-tr from-pink-500 to-indigo-700 lg:mb-16 text-white"
-    >
-      <div
-        class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8"
-      >
-        <div
-          class="
-            pt-4
-            pb-8
-            px-4
-            sm:px-6
-            md:flex md:flex-col
-            md:pl-0
-            md:pr-10
-            md:border-r md:border-gray-200
-            lg:pr-16
-          "
-        >
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium md:flex-grow">
-              <svg
-                class="
-                  absolute
-                  top-0
-                  left-0
-                  transform
-                  -translate-x-3 -translate-y-2
-                  h-8
-                  w-8
-                  text-pink-600
-                "
-                fill="currentColor"
-                viewBox="0 0 32 32"
-              >
-                <path
-                  d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
-                />
-              </svg>
-              <p class="relative">
-                I attend a high volume of developer events and can say without
-                reservation that You Got This is one of the most welcoming and
-                meaningfully educational events I've ever been to. I strongly
-                recommend it not just to juniors in tech, but to managers and
-                leads wanting better insight into how to support their teams.
-              </p>
-            </div>
-            <a class="mt-8 block" href="https://twitter.com/jesslynnrose">
-              <div class="flex">
-                <div
-                  class="
-                    flex-shrink-0
-                    inline-flex
-                    rounded-full
-                    border-2 border-white
-                  "
-                >
-                  <img
-                    class="h-12 w-12 rounded-full"
-                    src="/img/people/jess-rose.jpg"
-                    alt="Jessica Rose"
-                  />
-                </div>
-                <div class="ml-4">
-                  <div class="text-base leading-6 font-medium">
-                    Jessica Rose
-                  </div>
-                  <div class="text-base leading-6 font-medium">
-                    @jesslynnrose
-                  </div>
-                </div>
-              </div>
-            </a>
-          </blockquote>
+    <div class="grid lg:grid-cols-2 gap-8">
+      <blockquote class="pl-6 py-4 border-l-4 border-pink-500">
+        <p class="mb-3">
+          I attend a high volume of developer events and can say without
+          reservation that You Got This is one of the most welcoming and
+          meaningfully educational events I've ever been to. I strongly
+          recommend it not just to juniors in tech, but to managers and leads
+          wanting better insight into how to support their teams.
+        </p>
+        <div class="flex items-center">
+          <img
+            class="h-12 w-12 rounded-full mr-4"
+            src="/img/people/jess-rose.jpg"
+            alt="Jessica Rose"
+          />
+          <div>
+            <p>Jessica Rose</p>
+            <a
+              class="text-gray-700 dark:text-gray-200 text-sm"
+              href="https://twitter.com/jesslynnrose"
+              >@jesslynnrose</a
+            >
+          </div>
         </div>
-        <div
-          class="
-            pt-4
-            pb-8
-            px-4
-            border-t-2 border-gray-200
-            sm:px-6
-            md:pr-0
-            md:pl-10
-            md:border-t-0 md:border-l
-            lg:pl-16
-          "
-        >
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium md:flex-grow">
-              <svg
-                class="
-                  absolute
-                  top-0
-                  left-0
-                  transform
-                  -translate-x-3 -translate-y-2
-                  h-8
-                  w-8
-                  text-pink-600
-                "
-                fill="currentColor"
-                viewBox="0 0 32 32"
-              >
-                <path
-                  d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
-                />
-              </svg>
-              <p class="relative">
-                The speakers and their talks were amazing and showcased immense
-                diversity. The organisers do an amazing job of making everyone
-                feel like they belong and make the extra effort to make sure
-                that everyone is included. It's my favourite tech conference on
-                the calendar and I can't wait for the next one.
-              </p>
-            </div>
-            <a class="mt-8 block" href="https://twitter.com/chatterboxcoder">
-              <div class="flex">
-                <div
-                  class="
-                    flex-shrink-0
-                    inline-flex
-                    rounded-full
-                    border-2 border-white
-                  "
-                >
-                  <img
-                    class="h-12 w-12 rounded-full"
-                    src="/img/people/nathaniel-okenwa.jpg"
-                    alt="Nathaniel Okenwa"
-                  />
-                </div>
-                <div class="ml-4">
-                  <div class="text-base leading-6 font-medium">
-                    Nathaniel Okenwa
-                  </div>
-                  <div class="text-base leading-6 font-medium">
-                    @chatterboxCoder
-                  </div>
-                </div>
-              </div>
-            </a>
-          </blockquote>
+      </blockquote>
+      <blockquote class="pl-6 py-4 border-l-4 border-pink-500">
+        <p class="mb-3">
+          The speakers and their talks were amazing and showcased immense
+          diversity. The organisers do an amazing job of making everyone feel
+          like they belong and make the extra effort to make sure that everyone
+          is included. It's my favourite tech conference on the calendar and I
+          can't wait for the next one.
+        </p>
+        <div class="flex items-center">
+          <img
+            class="h-12 w-12 rounded-full mr-4"
+            src="/img/people/nathaniel-okenwa.jpg"
+            alt="Nathaniel Okenwa"
+          />
+          <div>
+            <p>Nathaniel Okenwa</p>
+            <a
+              class="text-gray-700 dark:text-gray-200 text-sm"
+              href="https://twitter.com/ChatterboxCoder"
+              >@ChatterboxCoder</a
+            >
+          </div>
         </div>
-      </div>
-    </section>
+      </blockquote>
+      <blockquote class="pl-6 py-4 border-l-4 border-pink-500">
+        <p class="mb-3">
+          There haven't been many events like You Got This. It is easily one of
+          my favourite conferences out there! I leave every single one with
+          practical insights on how to make sure that I have a better
+          relationship with my tech career, new friends and looking for the sign
+          up link for the next one. Thank you to the team for creating such a
+          safe and wonderful space for everyone!
+        </p>
+        <div class="flex items-center">
+          <img
+            class="h-12 w-12 rounded-full mr-4"
+            src="/img/people/pauline-narvas.jpg"
+            alt="Pauline Narvas"
+          />
+          <div>
+            <p>Pauline Narvas</p>
+            <a
+              class="text-gray-700 dark:text-gray-200 text-sm"
+              href="https://twitter.com/paulienuh"
+              >@paulienuh</a
+            >
+          </div>
+        </div>
+      </blockquote>
+      <blockquote class="pl-6 py-4 border-l-4 border-pink-500">
+        <p class="mb-3">
+          You Got This is an achievement of conference curation - where every
+          talk not only fit within the theme and served the audience's
+          expectations, but built off of one enough and made the event seem like
+          one coherent performance. Over the years YGT has grown an incredible
+          and supportive community, and is run to a high standard of polish by
+          the team.
+        </p>
+        <div class="flex items-center">
+          <img
+            class="h-12 w-12 rounded-full mr-4"
+            src="/img/people/joe-nash.jpg"
+            alt="Joe Nash"
+          />
+          <div>
+            <p>Joe Nash</p>
+            <a
+              class="text-gray-700 dark:text-gray-200 text-sm"
+              href="https://twitter.com/jna_sh"
+              >@jna_sh</a
+            >
+          </div>
+        </div>
+      </blockquote>
+    </div>
   </div>
 </template>
