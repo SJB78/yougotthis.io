@@ -59,7 +59,7 @@
               'grid-cols-2':
                 event.sponsors.length % 2 == 0 || event.sponsors.length == 1,
               'grid-cols-2 sm:grid-cols-3':
-                event.sponsors.length % 1 == 0 && event.sponsors.length > 1,
+                event.sponsors.length % 3 == 0 && event.sponsors.length > 1,
             }"
           >
             <a
