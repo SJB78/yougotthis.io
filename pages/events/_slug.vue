@@ -124,6 +124,12 @@
           <details class="cursor-pointer">
             <summary>About {{ talk.speaker.name }}</summary>
             <p class="mt-2">{{ talk.speaker.bio }}</p>
+            <a
+              v-if="talk.speaker.link_url"
+              class="btn"
+              :href="talk.speaker.link_url"
+              >{{ talk.speaker.link_text }}</a
+            >
           </details>
         </div>
       </div>
