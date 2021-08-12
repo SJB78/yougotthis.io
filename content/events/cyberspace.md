@@ -1,6 +1,5 @@
 ---
-save_the_date: true
-title: "You Got This In Cyberspace"
+title: 'You Got This In Cyberspace'
 short: An online community conference focusing on the non-technical core skills for a happy, healthy work life.
 type: Conference
 location: Online
