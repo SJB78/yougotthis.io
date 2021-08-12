@@ -5,6 +5,7 @@
         :src="`/img/events/og/${event.logo}`"
         alt=""
         sizes="lg:450px sm:100vw"
+        class="w-full"
       />
       <div
         class="
