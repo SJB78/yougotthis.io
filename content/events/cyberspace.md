@@ -17,7 +17,7 @@ before:
       <h2 class="text-2xl font-theme mb-4 text-[#250d3e]">Submit a talk or workshop</h2>
       <div class="prose !text-black">
         <p>We are accepting talk and workshop submissions until Thursday September 30th 2021.</p>
-        <p>Workshops are 2 hours long and will take place on Friday 15th January 2022. Those facilitating will be paid £400 for their time. Workshops should have no more than an hour of content, with the remaining time spent in small groups with a facilitator.</p>
+        <p>Workshops are 2 hours long and will take place on Friday 14th January 2022. Those facilitating will be paid £400 for their time. Workshops should have no more than an hour of content, with the remaining time spent in small groups with a facilitator.</p>
         <p>Talks are 25 minutes long and will take place on Saturday 15th January 2022. Speakers will be paid £150 for their time.</p>
         <p>You don't need any prior experience in public speaking or delivering workshops - we are here to help you.</p>
         <p>After submissions end, submissions will be anonymized and provided to an external review panel. We will get back to everyone regardless of outcome.</p>
