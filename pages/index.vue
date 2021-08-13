@@ -38,7 +38,7 @@
       <h2 class="text-2xl lg:text-4xl font-bold">
         Drop in next time we're around.
       </h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 mt-4 gap-4">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-2 mt-4 gap-4">
         <Event
           v-for="event in events"
           :key="event.date"
@@ -92,6 +92,7 @@ export default {
       })
       .fetch()
     const events = await $content('events')
+      .where({ past: { $ne: true } })
       .sortBy('date', 'asc')
       .limit(3)
       .fetch()

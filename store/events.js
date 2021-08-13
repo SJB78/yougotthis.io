@@ -1,6 +1,14 @@
 export const state = () => ({
   past: [
     {
+      title: 'You Got This Through the Seasons: Summer 2021',
+      date: '2021-08-12',
+      location: 'Online',
+      type: 'Meetup',
+      url: '/events/summer-2021',
+      logo: 'summer.jpg',
+    },
+    {
       title: 'You Got This From Your Couch',
       date: '2021-01-15',
       location: 'Online',

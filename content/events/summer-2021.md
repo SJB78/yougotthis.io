@@ -1,4 +1,5 @@
 ---
+past: true
 title: 'You Got This Through the Seasons: Summer 2021'
 short: As days begin to get shorter let's focus on technology's societal and ethical impacts.
 type: Meetup
@@ -7,8 +8,7 @@ date: 2021-08-12
 time: '5PM UTC'
 logo: summer.jpg
 links:
-  - text: Watch event live
-    url: 'https://live.yougotthis.io'
+  - text: Talks will be published soon
 sponsors:
   - balsamiq
   - orbit
