@@ -6,15 +6,6 @@
     </p>
     <div>
       <div class="w-full mt-4 lg:mt-16 border-2 border-indigo-700">
-        <!-- <vue-plyr>
-          <video>
-            <source
-              ref="source"
-              type="application/x-mpegURL"
-              :src="`https://stream.mux.com/${talk.video}.m3u8`"
-            />
-          </video>
-        </vue-plyr> -->
         <vue-plyr>
           <video ref="videoStreaming" controls crossorigin playsinline>
             <source src="" />
@@ -130,9 +121,34 @@
               }}</span>
             </div>
           </div>
-          <n-link :to="`/talks?tag=${event.tag}`" class="tag">{{
-            event.title.toLowerCase()
-          }}</n-link>
+          <n-link
+            :to="`/talks?tag=${event.tag}`"
+            class="bg-pink-200 px-3 py-1.5 text-sm text-center rounded-full"
+            >View all talks from this event</n-link
+          >
+          <div v-if="event.sponsors">
+            <h2 class="mt-8 mb-2 font-bold text-lg">Event supported by</h2>
+            <div
+              class="grid gap-2 w-full"
+              :class="{
+                'grid-cols-2': sponsors.length % 2 == 0 || sponsors.length == 1,
+                'grid-cols-2 sm:grid-cols-3':
+                  sponsors.length % 3 == 0 && sponsors.length > 1,
+              }"
+            >
+              <a
+                v-for="sponsor of sponsors"
+                :key="sponsor.file"
+                :href="sponsor.url"
+              >
+                <nuxt-img
+                  :src="`/img/sponsors/${sponsor.file}.png`"
+                  :alt="sponsor.name"
+                  class="w-full"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </aside>
     </div>
@@ -146,11 +162,20 @@ import Plyr from 'plyr'
 export default {
   async asyncData({ store, $content, params }) {
     const talk = await $content('talks', params.slug).fetch()
+
     const event = store.state.events.past.find((e) => e.title === talk.event)
     const eventLogo = `/img/events/logos/${event.logo}`
+
     const themeTags = store.state.tags.list.filter((t) => t.type === 'theme')
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
-    return { talk, eventLogo, tags, event }
+
+    const allSponsors = store.state.sponsors.list
+    const eventSponsorNames = event.sponsors || []
+    const sponsors = allSponsors.filter((s) =>
+      eventSponsorNames.find((e) => s.file === e)
+    )
+
+    return { talk, eventLogo, tags, event, sponsors }
   },
   data() {
     return {

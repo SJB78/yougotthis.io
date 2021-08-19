@@ -71,15 +71,20 @@ export const state = () => ({
       url: 'https://jonjoe.io',
     },
     {
+      file: 'ing-tech-poland',
+      name: 'ING Tech Poland',
+      url: 'https://ingtechpoland.com/',
+    },
+    {
       file: 'launchdarkly',
       name: 'LaunchDarkly',
       url: 'https://jonjoe.io',
     },
-    // {
-    //   file: 'mlab',
-    //   name: 'mLab',
-    //   url: 'https://mlab.com',
-    // },
+    {
+      file: 'microsoft',
+      name: 'Microsoft',
+      url: 'https://microsoft.com',
+    },
     {
       file: 'mlh',
       name: 'Major League Hacking',
@@ -140,11 +145,11 @@ export const state = () => ({
       name: 'Twilio',
       url: 'https://twilio.com',
     },
-    // {
-    //   file: 'underland',
-    //   name: 'Underland',
-    //   url: 'https://twitter.com/underlandevents',
-    // },
+    {
+      file: 'underland',
+      name: 'Underland',
+      url: 'https://twitter.com/underlandevents',
+    },
     {
       file: 'verve',
       name: 'Verve',
