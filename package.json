@@ -18,8 +18,10 @@
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.9.1",
+    "hls.js": "^1.0.9",
     "netlify-cli": "^3.38.9",
     "nuxt": "^2.15.3",
+    "plyr": "^3.6.8",
     "simple-analytics-vue": "^1.1.5",
     "vue-plyr": "^7.0.0"
   },

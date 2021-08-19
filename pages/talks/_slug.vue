@@ -6,13 +6,18 @@
     </p>
     <div>
       <div class="w-full mt-4 lg:mt-16 border-2 border-indigo-700">
-        <vue-plyr>
+        <!-- <vue-plyr>
           <video>
             <source
               ref="source"
               type="application/x-mpegURL"
               :src="`https://stream.mux.com/${talk.video}.m3u8`"
             />
+          </video>
+        </vue-plyr> -->
+        <vue-plyr>
+          <video ref="videoStreaming" controls crossorigin playsinline>
+            <source src="" />
           </video>
         </vue-plyr>
       </div>
@@ -135,6 +140,9 @@
 </template>
 
 <script>
+import Hls from 'hls.js'
+import Plyr from 'plyr'
+
 export default {
   async asyncData({ store, $content, params }) {
     const talk = await $content('talks', params.slug).fetch()
@@ -143,6 +151,23 @@ export default {
     const themeTags = store.state.tags.list.filter((t) => t.type === 'theme')
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))
     return { talk, eventLogo, tags, event }
+  },
+  data() {
+    return {
+      playerOptions: {
+        controls: [
+          'play-large',
+          'current-time',
+          'play',
+          'mute',
+          'volume',
+          'progress',
+          'settings',
+          'fullscreen',
+        ],
+        settings: ['quality', 'speed', 'loop'],
+      },
+    }
   },
   head() {
     return {
@@ -156,6 +181,43 @@ export default {
         },
       ],
     }
+  },
+  mounted() {
+    this.videoStreaming()
+  },
+  methods: {
+    videoStreaming() {
+      const url = `https://stream.mux.com/${this.talk.video}.m3u8`
+      const video = this.$refs.videoStreaming
+      const defaultOptions = {}
+      if (Hls.isSupported()) {
+        const hls = new Hls()
+        hls.loadSource(url)
+        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+          const availableQualities = hls.levels.map((l) => l.height)
+          defaultOptions.quality = {
+            default: availableQualities[0],
+            options: availableQualities,
+            forced: true,
+            onChange: (e) => updateQuality(e),
+          }
+          new Plyr(video, defaultOptions) // eslint-disable-line
+        })
+
+        hls.attachMedia(video)
+        window.hls = hls
+      } else {
+        new Plyr(video, defaultOptions) // eslint-disable-line
+      }
+
+      function updateQuality(newQuality) {
+        window.hls.levels.forEach((level, levelIndex) => {
+          if (level.height === newQuality) {
+            window.hls.currentLevel = levelIndex
+          }
+        })
+      }
+    },
   },
 }
 </script>
