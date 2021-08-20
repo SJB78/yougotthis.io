@@ -8,7 +8,8 @@ date: 2021-08-12
 time: '5PM UTC'
 logo: summer.jpg
 links:
-  - text: Talks will be published soon
+  - text: Watch talks
+    url: 'https://yougotthis.io/talks?tag=you-got-this-through-the-seasons-summer-2021'
 sponsors:
   - balsamiq
   - orbit
