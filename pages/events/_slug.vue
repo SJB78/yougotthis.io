@@ -87,6 +87,7 @@
           mb-4
           bg-gray-100
           border border-gray-300
+          event-before
           dark:bg-gray-800
           dark:border-gray-600
         "
@@ -141,6 +142,7 @@
           mb-4
           bg-gray-100
           border border-gray-300
+          event-after
           dark:bg-gray-800
           dark:border-gray-600
         "
