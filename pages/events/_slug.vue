@@ -19,9 +19,14 @@
       >
         <h1 class="text-4xl">{{ event.title }}</h1>
         <div class="text-sm my-2">
-          <span class="block mr-4 mb-2"
-            >{{ $moment(event.date).format('dddd MMMM Do YYYY') }}
-            {{ event.time }}</span
+          <span class="block mr-4 mb-2" v-if="event.customDate">{{
+            event.customDate
+          }}</span>
+          <span class="block mr-4 mb-2" v-else>
+            {{
+              $moment.utc(event.date).local().format('ddd MMM Do YYYY h:mm A')
+            }}
+            {{ $moment.tz($moment.tz.guess(true)).format('z') }}</span
           >
           <span class="mr-4">{{ event.location }}</span>
           <span>{{ event.type }}</span>
@@ -121,6 +126,11 @@
         </div>
         <div class="p-4">
           <p>{{ talk.abstract }}</p>
+          <p class="text-sm mt-4">
+            This talk is scheduled to happen at
+            {{ $moment.utc(talk.time).local().format('h:mm A') }}
+            {{ $moment.tz($moment.tz.guess(true)).format('z') }}
+          </p>
         </div>
         <div class="p-4 border-t border-gray-300 dark:border-gray-600">
           <details class="cursor-pointer">
@@ -147,7 +157,14 @@
           dark:border-gray-600
         "
       >
-        <div class="p-4" v-html="section.content"></div>
+        <div class="p-4">
+          <div v-html="section.content"></div>
+          <div class="mt-4 text-sm" v-if="section.time">
+            This is scheduled to happen at
+            {{ $moment.utc(section.time).local().format('h:mm A') }}
+            {{ $moment.tz($moment.tz.guess(true)).format('z') }}
+          </div>
+        </div>
       </div>
     </main>
     <style v-if="event.css">

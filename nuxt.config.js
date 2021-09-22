@@ -83,6 +83,9 @@ export default {
     '@nuxt/image',
   ],
   modules: ['@nuxt/content', '@nuxtjs/feed', '@nuxtjs/markdownit'],
+  moment: {
+    timezone: true,
+  },
   image: {
     provider: 'netlify',
   },
