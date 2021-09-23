@@ -61,6 +61,27 @@
         </ul>
       </nav>
     </div>
+    <div class="p-4 pb-0 bg-white notice">
+      <n-link
+        to="/events/cyberspace"
+        class="
+          wrapper
+          bg-pink-100
+          border border-pink-200
+          rounded
+          p-4
+          block
+          text-gray-800
+          flex
+          justify-between
+          items-center
+        "
+        ><span
+          >Submit talks and workshops to our Jan conference until Sept 30.</span
+        >
+        <right-arrow class="h-4 w-4 hidden md:block" />
+      </n-link>
+    </div>
   </header>
 </template>
 

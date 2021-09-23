@@ -29,6 +29,7 @@ after:
 cssFile: '/fonts/lazenby.css'
 css: |
   body, html.dark .main { background: #250d3e !important; }
+  header .notice { display: none }
   .event-meta h1, .talk h2 {font-family:'lazenby',sans-serif; color: #250d3e;}
   .font-theme { font-family:'lazenby',sans-serif; }
   html.dark .event-meta h1, html.dark .talk h2, html.dark .event-before * { color: white; }
