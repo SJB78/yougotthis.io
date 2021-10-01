@@ -61,7 +61,7 @@
         </ul>
       </nav>
     </div>
-    <div class="p-4 pb-0 bg-white notice">
+    <!-- <div class="p-4 pb-0 bg-white notice">
       <n-link
         to="/events/cyberspace"
         class="
@@ -81,7 +81,7 @@
         >
         <right-arrow class="h-4 w-4 hidden md:block" />
       </n-link>
-    </div>
+    </div> -->
   </header>
 </template>
 
