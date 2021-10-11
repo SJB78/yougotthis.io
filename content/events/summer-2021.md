@@ -18,21 +18,24 @@ sponsors:
 # luma: evt-87iOUlgGddGq968
 
 before:
-  - content: <p>Talks will be live-captioned by <a href="https://whitecoatcaptioning.com" class="underline">White Coat Captioning</a>. These will be visible below the video stream, and via a direct URL which can be opened on another device is desired. Our post-event social session will not be captioned.</p>
-talks:
+- content: <p>Talks will be live-captioned by <a href="https://whitecoatcaptioning.com" class="underline">White Coat Captioning</a>. These will be visible below the video stream, and via a direct URL which can be opened on another device is desired. Our post-event social session will not be captioned.</p>
+schedule:
   - title: 'The What, How, and Why of a Code of Ethics'
+    type: content
     abstract: "In this talk we will cover what's in a code of ethics, and why should you care about it. Go behind the scenes with an ethicist and co-author of the Association of Computing Machinery's (ACM) new code of ethics that affects hundreds of thousands of computing professionals and get some answers to the following: What is a Code of Ethics? Why bother updating the old code, or having one at all? What's the code asking me to do, and why? How can I practically use the code? How did you decide whether something is good or bad, or whether something should be included in the code? What if my boss thinks codes of ethics are for losers? What if I work in the military/security/etc. domain? How is this code different from all the other codes out there? What happens if I break the Code of Ethics?"
     speaker:
       name: Catherine Flick
       twitter: CatherineFlick
       bio: Dr Catherine Flick is a Reader in Computing and Social Responsibility in the Centre for Computing and Social Responsibility at De Montfort University. She is very excited about the social and ethical impact of technologies, and how we can make sure that development of a new technology creates a positive impact.
   - title: 'What Civil Engineering Can Teach Us About Ethics'
+    type: content
     abstract: Contemporary software engineering is at a crucial juncture in the evolution as a discipline. We’re professionalizing and expanding our abilities, but in doing so we’re encountering dramatic new risks and venturing into new ethical territory. In this way, we share similarities with the expansion of traditional civil engineering during the industrial revolution. In this talk I’ll discuss what lessons can we learn from that industry, and how we can try to avoid making some of the same mistakes. I’ll also give a basic introduction to engineering ethics, discuss some examples of ethical problems from my own career, and explore how we can try to improve our ethical decision-making by incorporating ethical reasoning into the different stages of our work.
     speaker:
       name: Richard Westenra
       twitter: RichardWestenra
       bio: 'Richard is a creative front-end dev specializing in interactive dataviz. He often works with React, D3, CSS, SVG and Canvas, and is passionate about accessibility, animation, web standards, performance, usability, and engineering ethics. After living in London for ten years, he has recently moved back home to New Zealand, and is getting to grips with extremely remote working.'
   - title: 'How to Align Your Values With Your Job'
+    type: content
     abstract: "Every time we land a new job, the excitement is there: new beginnings, a new opportunity, the chance to grow... but how can we keep this motivation during our journey and take it further from the newbie stage?  Aligning your values within your workplace can be the answer. During this talk, we will learn how to recognize our own values and take them to our workplace (and step up when we don't find them) to achieve a greater commitment and satisfaction in our careers."
     speaker:
       name: Laura Morinigo

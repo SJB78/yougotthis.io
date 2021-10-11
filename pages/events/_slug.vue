@@ -100,8 +100,8 @@
         <div class="p-4" v-html="section.content"></div>
       </div>
       <div
-        v-for="talk in event.talks"
-        :key="talk.title"
+        v-for="session in event.schedule"
+        :key="session.title"
         class="
           mb-4
           bg-gray-100
@@ -110,39 +110,48 @@
           dark:border-gray-600
           talk
         "
+        :class="session.type"
       >
-        <div class="p-4 border-b border-gray-300 dark:border-gray-600">
-          <h2 class="text-3xl mb-2">{{ talk.title }}</h2>
-          <h3 class="flex items-center">
-            <span>{{ talk.speaker.name }}</span>
-            <a
-              v-if="talk.speaker.twitter"
-              :href="`https://twitter.com/${talk.speaker.twitter}`"
-              aria-label="Twitter"
-            >
-              <Twitter class="h-4 ml-2" />
-            </a>
-          </h3>
+        <div v-if="session.type == 'content'">
+          <div class="p-4 border-b border-gray-300 dark:border-gray-600">
+            <h2 class="text-3xl mb-2">
+              {{ session.title }}
+              ({{ $moment.utc(session.time).local().format('h:mm A') }}
+              {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+            </h2>
+            <h3 class="flex items-center">
+              <span>{{ session.speaker.name }}</span>
+              <a
+                v-if="session.speaker.twitter"
+                :href="`https://twitter.com/${session.speaker.twitter}`"
+                aria-label="Twitter"
+              >
+                <Twitter class="h-4 ml-2" />
+              </a>
+            </h3>
+          </div>
+          <div class="p-4">
+            <p>{{ session.abstract }}</p>
+          </div>
+          <div class="p-4 border-t border-gray-300 dark:border-gray-600">
+            <details class="cursor-pointer">
+              <summary>About {{ session.speaker.name }}</summary>
+              <p class="mt-2">{{ session.speaker.bio }}</p>
+              <a
+                v-if="session.speaker.link_url"
+                class="btn"
+                :href="session.speaker.link_url"
+                >{{ session.speaker.link_text }}</a
+              >
+            </details>
+          </div>
         </div>
-        <div class="p-4">
-          <p>{{ talk.abstract }}</p>
-          <p class="text-sm mt-4">
-            This talk is scheduled to happen at
-            {{ $moment.utc(talk.time).local().format('h:mm A') }}
-            {{ $moment.tz($moment.tz.guess(true)).format('z') }}
-          </p>
-        </div>
-        <div class="p-4 border-t border-gray-300 dark:border-gray-600">
-          <details class="cursor-pointer">
-            <summary>About {{ talk.speaker.name }}</summary>
-            <p class="mt-2">{{ talk.speaker.bio }}</p>
-            <a
-              v-if="talk.speaker.link_url"
-              class="btn"
-              :href="talk.speaker.link_url"
-              >{{ talk.speaker.link_text }}</a
-            >
-          </details>
+        <div v-else class="p-4">
+          <h2 class="text-xl">
+            {{ session.title }}
+            ({{ $moment.utc(session.time).local().format('h:mm A') }}
+            {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+          </h2>
         </div>
       </div>
       <div

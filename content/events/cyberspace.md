@@ -15,10 +15,7 @@ sponsors:
   - circle-ci
 before:
   - content: |
-      <h2 class="text-2xl font-theme mb-4 text-[#250d3e]">Talk and workshop submissions have now closed.</h2>
-      <div class="prose !text-black max-w-full w-full">
-        <p>We aim to get back to everyone by Sun 10th Oct 2021.</p>
-      </div>
+      <h2 class="text-2xl font-theme text-[#250d3e]">Talk and workshop submissions have now closed.</h2>
 after:
   - content: <p>If you are interested in sponsoring please <a href="mailto:kevin@yougotthis.io" class="underline font-bold">send an email to Kevin</a>.</p>
 cssFile: '/fonts/lazenby.css'
