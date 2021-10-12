@@ -7,7 +7,7 @@ date: 2022-01-14T10:00:00
 customDate: 'Fri 14th - Sat 15th Jan 2022'
 logo: cyberspace.png
 links:
-  - text: 'Tickets available October 14th'
+  - text: 'Tickets available November 1st'
 photo: '/img/events/og/cyberspace.png'
 sponsors:
   - balsamiq
