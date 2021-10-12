@@ -10,21 +10,18 @@ sponsors:
   - circle-ci
 # luma: evt-dLvCd9vpQyjTSAE
 before:
-  - content: <p>Unlike our other events which have talks or workshops, this chill ebd-of-year event will be focused on meeting others, socialising and having fun.</p><p class="mt-4">For the first part of the night you will get to meet others in a series of small video calls, followed by a group game, and back to smaller groups to wrap up the evening. There will be giveaways, cheesy Christmas music, and a chance to form new friendships.</p>
+  - content: <p>Unlike our other events which have talks or workshops, this chill end-of-year event will be focused on having fun, winning prizes, and meeting new people.</p>
 schedule:
-  - time: 2021-10-14T17:00
+  - time: 2021-10-14T18:00
     title: Welcome & Announcements
     type: aside
-  - time: 2021-10-14T17:15
-    title: Social Session 1
-    type: aside
-  - time: 2021-10-14T18:00
+  - time: 2021-10-14T18:15
     title: Games
     type: aside
-  - time: 2021-10-14T19:30
-    title: Social Session 2
+  - time: 2021-10-14T20:30
+    title: Social Session
     type: aside
-  - time: 2021-10-14T20:15
+  - time: 2021-10-14T21:30
     title: Wrap Up & Farewell
     type: aside
 cssFile: '/fonts/hohoholiday.css'
@@ -34,6 +31,6 @@ css: |
   .header-bar a, .footer-bar a { color: white; }
   html:not(.dark) .talk:nth-child(3){background:#a27d25; border-color: #725511; color:white;}
   html:not(.dark) .talk:nth-child(4){background:#012c25; border-color: #00120f; color:white;}
-  html:not(.dark) .talk:nth-child(5) {background:#002436; border-color: #151f29; color:white;}
+  # html:not(.dark) .talk:nth-child(5) {background:#002436; border-color: #151f29; color:white;}
   .event-meta h1, .talk h2 {font-family:'hohoholiday',sans-serif;}
 ---
