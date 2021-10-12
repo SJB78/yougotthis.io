@@ -116,8 +116,10 @@
           <div class="p-4 border-b border-gray-300 dark:border-gray-600">
             <h2 class="text-3xl mb-2">
               {{ session.title }}
-              ({{ $moment.utc(session.time).local().format('h:mm A') }}
-              {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+              <span v-if="session.time">
+                ({{ $moment.utc(session.time).local().format('h:mm A') }}
+                {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+              </span>
             </h2>
             <h3 class="flex items-center">
               <span>{{ session.speaker.name }}</span>

@@ -24,10 +24,10 @@
 <script>
 export default {
   async asyncData({ $content, store }) {
-    const events = await $content('events')
-      .where({ past: { $ne: true } })
-      .sortBy('date', 'desc')
-      .fetch()
+    let events = await $content('events')
+    .where({ past: { $ne: true } })
+    .fetch()
+    events = events.sort((a, b)  => new Date(a.date) - new Date(b.date))
     const past = store.state.events.past
     past.map((event) => {
       return { ...event, logo: `/img/events/og/${event.logo}` }
