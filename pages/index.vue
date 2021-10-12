@@ -93,7 +93,7 @@ export default {
       .fetch()
     const events = await $content('events')
       .where({ past: { $ne: true } })
-      .sortBy('date', 'asc')
+      .sortBy('date', 'desc')
       .limit(3)
       .fetch()
     return {
