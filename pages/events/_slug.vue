@@ -1,19 +1,19 @@
 <template>
   <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14
   dark:border-gray-600">
-    <aside class="lg:col-span-2 mb-8 lg:mb-0 border border-gray-300">
+    <aside class="lg:col-span-2 mb-8 lg:mb-0">
       <nuxt-img
         :src="`/img/events/og/${event.logo}`"
         alt=""
         sizes="lg:450px sm:100vw"
-        class="w-full"
+        class="w-full border border-gray-300"
       />
       <div
         class="
           bg-gray-100
           dark:bg-gray-800
           p-4
-          border-t border-gray-300
+          border border-gray-300 border-t-0
           event-meta
         "
       >
