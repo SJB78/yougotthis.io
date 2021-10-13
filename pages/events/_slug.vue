@@ -1,6 +1,7 @@
 <template>
-  <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14">
-    <aside class="lg:col-span-2 mb-8 lg:mb-0">
+  <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14
+  dark:border-gray-600">
+    <aside class="lg:col-span-2 mb-8 lg:mb-0 border border-gray-300">
       <nuxt-img
         :src="`/img/events/og/${event.logo}`"
         alt=""
@@ -12,8 +13,7 @@
           bg-gray-100
           dark:bg-gray-800
           p-4
-          border border-t-0 border-gray-300
-          dark:border-gray-600
+          border-t border-gray-300
           event-meta
         "
       >
@@ -226,21 +226,6 @@ export default {
   },
 }
 </script>
-
-<style>
-.luma-checkout--close-btn {
-  @apply bg-[#f6f9fc] w-8 h-8 !important;
-  background-image: url('/img/x.svg') !important;
-  background-size: 75% !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border: 1px solid rgba(191, 203, 218, 0.125) !important;
-}
-
-.luma-spinner {
-  display: none !important;
-}
-</style>
 
 <style scoped>
 .btn {
