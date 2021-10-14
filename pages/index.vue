@@ -38,7 +38,7 @@
       <h2 class="text-2xl lg:text-4xl font-bold">
         Drop in next time we're around.
       </h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-2 mt-4 gap-4">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 mt-4 gap-4">
         <Event
           v-for="event in events"
           :key="event.date"
@@ -91,11 +91,10 @@ export default {
         highlight: true,
       })
       .fetch()
-    const events = await $content('events')
+    let events = await $content('events')
       .where({ past: { $ne: true } })
-      .sortBy('date', 'desc')
-      .limit(3)
       .fetch()
+    events = events.sort((a, b)  => new Date(a.date) - new Date(b.date)).slice(0, 3)
     return {
       tags,
       talks,
