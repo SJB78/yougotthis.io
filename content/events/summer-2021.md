@@ -14,8 +14,6 @@ sponsors:
   - orbit
   - samsung-internet
   - twilio
-# luma: evt-87iOUlgGddGq968
-
 before:
 - content: <p>Talks will be live-captioned by <a href="https://whitecoatcaptioning.com" class="underline">White Coat Captioning</a>. These will be visible below the video stream, and via a direct URL which can be opened on another device is desired. Our post-event social session will not be captioned.</p>
 schedule:

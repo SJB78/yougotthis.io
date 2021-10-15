@@ -1,6 +1,15 @@
 export const state = () => ({
   past: [
     {
+      title: 'You Got This Through the Seasons: Fall 2021',
+      date: '2021-10-14',
+      location: 'Online',
+      type: 'Meetup',
+      url: '/events/fall-2021',
+      logo: 'fall.jpg',
+      sponsors: ['bryter', 'balsamiq', 'circle-ci', 'samsung-internet'],
+    },
+    {
       title: 'You Got This Through the Seasons: Summer 2021',
       date: '2021-08-12',
       location: 'Online',
