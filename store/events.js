@@ -6,7 +6,8 @@ export const state = () => ({
       location: 'Online',
       type: 'Meetup',
       url: '/events/fall-2021',
-      logo: 'fall.jpg',
+      og: 'fall.jpg',
+      icon: 'fall.png',
       sponsors: ['bryter', 'balsamiq', 'circle-ci', 'samsung-internet'],
     },
     {
@@ -15,7 +16,8 @@ export const state = () => ({
       location: 'Online',
       type: 'Meetup',
       url: '/events/summer-2021',
-      logo: 'summer.jpg',
+      og: 'summer.jpg',
+      icon: 'summer.png',
       sponsors: ['orbit', 'balsamiq', 'twilio', 'samsung-internet'],
     },
     {
@@ -25,7 +27,8 @@ export const state = () => ({
       type: 'Conference',
       url: 'https://couch.yougotthis.io',
       tag: 'you-got-this-from-your-couch',
-      logo: 'couch.png',
+      og: 'couch.png',
+      icon: 'couch.png',
       sponsors: [
         '20i',
         'auth0',
@@ -45,7 +48,8 @@ export const state = () => ({
       type: 'Conference',
       url: 'https://itmatters.pl/',
       tag: 'it-matters-online-2020',
-      logo: 'it-matters.png',
+      og: 'it-matters.png',
+      icon: 'it-matters.png',
       sponsors: ['ing-tech-poland'],
     },
     {
@@ -54,7 +58,8 @@ export const state = () => ({
       location: 'Online',
       type: 'Discussion Space',
       url: 'https://www.humansconf.org/events/2020-07-15-virtual-open-space',
-      logo: 'humans.png',
+      og: 'humans.png',
+      icon: 'humans.png',
     },
     {
       title: 'You Got This From Home',
@@ -63,7 +68,8 @@ export const state = () => ({
       type: 'Conference',
       tag: 'you-got-this-2020-from-home',
       url: 'https://home.yougotthis.io',
-      logo: 'home.png',
+      og: 'home.png',
+      icon: 'home.png',
       sponsors: [
         'balsamiq',
         'samsung-internet',
@@ -79,7 +85,8 @@ export const state = () => ({
       location: 'Online',
       type: 'Discussion Space',
       url: 'https://www.humansconf.org/events/2020-06-02-virtual-open-space',
-      logo: 'humans.png',
+      og: 'humans.png',
+      icon: 'humans.png',
     },
     {
       title: 'You Got This 2020',
@@ -88,7 +95,8 @@ export const state = () => ({
       type: 'Conference',
       tag: 'you-got-this-birmingham-2020',
       url: 'https://2020.yougotthis.io',
-      logo: '2020.png',
+      og: '2020.png',
+      icon: '2020.png',
       photos: '2020',
       photographer: 'Harshpal Bhirth',
       sponsors: [
@@ -110,7 +118,8 @@ export const state = () => ({
       location: 'London, UK',
       type: 'Meetup',
       url: 'https://attending.io/events/things-i-wish-i-knew-1-a-meetup-for-early-career-people-in-tech',
-      logo: 'things-i-wish-i-knew.png',
+      og: 'things-i-wish-i-knew.png',
+      icon: 'things-i-wish-i-knew.png',
     },
     {
       title: 'Adulting.Dev 2019',
@@ -118,7 +127,8 @@ export const state = () => ({
       location: 'New York, USA',
       type: 'Conference',
       url: 'https://2019.adulting.dev/',
-      logo: 'adulting.png',
+      og: 'adulting.png',
+      icon: 'adulting.png',
       sponsors: ['microsoft', 'mongodb', 'contentful', 'underland'],
     },
     {
@@ -128,7 +138,8 @@ export const state = () => ({
       type: 'Conference',
       tag: 'you-got-this-london-2019',
       url: 'https://2019.yougotthis.io',
-      logo: '2019.png',
+      og: '2019.png',
+      icon: '2019.png',
       photos: '2019',
       photographer: 'Paul Clarke',
       sponsors: [

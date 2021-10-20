@@ -5,7 +5,7 @@ type: Social
 location: Online
 date: 2021-12-16T18:00
 time: '5PM UTC'
-logo: winter.jpg
+og: winter.jpg
 sponsors:
   - circle-ci
 luma: evt-xHjktkqZu5TQBNz

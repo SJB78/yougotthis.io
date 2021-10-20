@@ -5,7 +5,7 @@ short: As days begin to get shorter let's focus on technology's societal and eth
 type: Meetup
 location: Online
 date: 2021-08-12T17:00
-logo: summer.jpg
+og: summer.jpg
 links:
   - text: Watch talks
     url: 'https://yougotthis.io/talks?tag=you-got-this-through-the-seasons-summer-2021'

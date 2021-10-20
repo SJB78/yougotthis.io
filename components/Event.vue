@@ -9,7 +9,7 @@
         'border-gray-200 dark:border-gray-800': !event.slug,
       }"
     >
-      <nuxt-img :src="`/img/events/og/${event.logo}`" alt="" width="600px" />
+      <nuxt-img :src="`/img/events/og/${event.og}`" alt="" width="600px" />
       <div class="p-4 flex-1 flex flex-col justify-between dark:bg-gray-800">
         <h2 class="font-bold mb-2" :class="{ 'text-2xl': !slim }">
           {{ event.title }}

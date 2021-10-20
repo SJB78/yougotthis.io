@@ -1,9 +1,8 @@
 <template>
-  <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14
-  dark:border-gray-600">
+  <div class="wrapper lg:grid lg:grid-cols-5 gap-6 pb-14 dark:border-gray-600">
     <aside class="lg:col-span-2 mb-8 lg:mb-0">
       <nuxt-img
-        :src="`/img/events/og/${event.logo}`"
+        :src="`/img/events/og/${event.og}`"
         alt=""
         sizes="lg:450px sm:100vw"
         class="w-full border border-gray-300"
@@ -19,10 +18,10 @@
       >
         <h1 class="text-4xl">{{ event.title }}</h1>
         <div class="text-sm my-2">
-          <span class="block mr-4 mb-2" v-if="event.customDate">{{
+          <span v-if="event.customDate" class="block mr-4 mb-2">{{
             event.customDate
           }}</span>
-          <span class="block mr-4 mb-2" v-else>
+          <span v-else class="block mr-4 mb-2">
             {{
               $moment.utc(event.date).local().format('ddd MMM Do YYYY h:mm A')
             }}
@@ -170,7 +169,7 @@
       >
         <div class="p-4">
           <div v-html="section.content"></div>
-          <div class="mt-4 text-sm" v-if="section.time">
+          <div v-if="section.time" class="mt-4 text-sm">
             This is scheduled to happen at
             {{ $moment.utc(section.time).local().format('h:mm A') }}
             {{ $moment.tz($moment.tz.guess(true)).format('z') }}
