@@ -5,7 +5,7 @@
         :src="`/img/events/og/${event.og}`"
         alt=""
         sizes="lg:450px sm:100vw"
-        class="w-full border border-gray-300"
+        class="w-full border border-gray-300 dark:border-gray-600"
       />
       <div
         class="
@@ -13,10 +13,11 @@
           dark:bg-gray-800
           p-4
           border border-gray-300 border-t-0
+          dark:border-gray-600
           event-meta
         "
       >
-        <h1 class="text-4xl">{{ event.title }}</h1>
+        <h1 class="text-2xl sm:text-4xl">{{ event.title }}</h1>
         <div class="text-sm my-2">
           <span v-if="event.customDate" class="block mr-4 mb-2">{{
             event.customDate
@@ -25,7 +26,7 @@
             {{
               $moment.utc(event.date).local().format('ddd MMM Do YYYY h:mm A')
             }}
-            {{ $moment.tz($moment.tz.guess(true)).format('z') }}</span
+            {{ $moment.tz.guess(true).split('/')[1] }}</span
           >
           <span class="mr-4">{{ event.location }}</span>
           <span>{{ event.type }}</span>
@@ -101,34 +102,36 @@
       <div
         v-for="session in event.schedule"
         :key="session.title"
-        class="
-          mb-4
-          bg-gray-100
-          border border-gray-300
-          dark:bg-gray-800
-          dark:border-gray-600
-          talk
-        "
+        class="mb-4"
         :class="session.type"
       >
-        <div v-if="session.type == 'content'">
+        <div
+          v-if="session.type == 'content'"
+          class="
+            bg-gray-100
+            border border-gray-300
+            dark:bg-gray-800
+            dark:border-gray-600
+          "
+        >
           <div class="p-4 border-b border-gray-300 dark:border-gray-600">
-            <h2 class="text-3xl mb-2">
+            <h2 class="text-2xl sm:text-3xl mb-2">
               {{ session.title }}
-              <span v-if="session.time">
-                ({{ $moment.utc(session.time).local().format('h:mm A') }}
-                {{ $moment.tz($moment.tz.guess(true)).format('z') }})
-              </span>
             </h2>
-            <h3 class="flex items-center">
+            <h3 class="flex items-center flex-wrap">
               <span>{{ session.speaker.name }}</span>
               <a
                 v-if="session.speaker.twitter"
                 :href="`https://twitter.com/${session.speaker.twitter}`"
                 aria-label="Twitter"
               >
-                <Twitter class="h-4 ml-2" />
+                <Twitter class="h-4 ml-2 mr-6" />
               </a>
+              <span v-if="session.time" class="w-full md:w-auto">
+                Begins
+                {{ $moment.utc(session.time).local().format('h:mm A') }}
+                {{ $moment.tz.guess(true).split('/')[1] }}
+              </span>
             </h3>
           </div>
           <div class="p-4">
@@ -147,11 +150,14 @@
             </details>
           </div>
         </div>
+        <div v-else-if="session.type == 'html'" v-html="session.html"></div>
         <div v-else class="p-4">
           <h2 class="text-xl">
             {{ session.title }}
-            ({{ $moment.utc(session.time).local().format('h:mm A') }}
-            {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+            <span v-if="session.time">
+              ({{ $moment.utc(session.time).local().format('h:mm A') }}
+              {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+            </span>
           </h2>
         </div>
       </div>
