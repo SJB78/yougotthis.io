@@ -108,7 +108,14 @@
           </div>
           <n-link
             :to="`/talks?tag=${event.tag}`"
-            class="bg-pink-200 px-3 py-1.5 text-sm text-center rounded-full"
+            class="
+              bg-pink-200
+              px-3
+              py-1.5
+              text-sm text-center
+              rounded-full
+              dark:text-black
+            "
             >View all talks from this event</n-link
           >
           <div v-if="event.sponsors">
@@ -149,7 +156,7 @@ export default {
     const talk = await $content('talks', params.slug).fetch()
 
     const event = store.state.events.past.find((e) => e.title === talk.event)
-    const eventLogo = `/img/events/logos/${event.logo}`
+    const eventLogo = `/img/events/icons/${event.icon}`
 
     const themeTags = store.state.tags.list.filter((t) => t.type === 'theme')
     const tags = talk.tags.filter((t) => themeTags.find((u) => u.name === t))

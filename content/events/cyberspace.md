@@ -5,7 +5,7 @@ type: Conference
 location: Online
 date: 2022-01-14T10:00:00
 customDate: 'Fri 14th - Sat 15th Jan 2022'
-logo: cyberspace.png
+og: cyberspace.png
 links:
   - text: 'Tickets available November 1st'
 photo: '/img/events/og/cyberspace.png'
