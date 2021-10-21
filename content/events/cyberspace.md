@@ -6,6 +6,9 @@ location: Online
 date: 2022-01-14T10:00:00
 customDate: 'Fri 14th - Sat 15th Jan 2022'
 og: cyberspace.png
+cobrand_image: '/img/events/misc/powered-by-bryter.png'
+cobrand_text: 'Powered by BRYTER'
+cobrand_url: 'https://bryter.com/careers/'
 links:
   - text: 'Tickets available November 1st'
 photo: '/img/events/og/cyberspace.png'
@@ -165,6 +168,9 @@ css: |
   .content h2, .glow { text-shadow: 0 0 30px #7b3cbc,0 0 6px #7b3cbc }
   .font-theme { font-family:'monoton',sans-serif; text-transform: uppercase;  }
   html.dark .event-meta h1, html.dark .content h2, html.dark .event-before * { color: white; }
+  .og { border-color: #250d3e }
+  html.dark .og { border: none }
+  html.dark .event-meta { border-color: black; }
 ---
 
 

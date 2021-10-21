@@ -5,8 +5,16 @@
         :src="`/img/events/og/${event.og}`"
         alt=""
         sizes="lg:450px sm:100vw"
-        class="w-full border border-gray-300 dark:border-gray-600"
+        class="w-full border border-gray-300 dark:border-gray-600 og"
       />
+      <a :href="event.cobrand_url">
+        <nuxt-img
+          v-if="event.cobrand_image"
+          :src="event.cobrand_image"
+          :alt="event.cobrand_text"
+          class="cobrand"
+        />
+      </a>
       <div
         class="
           bg-gray-100
