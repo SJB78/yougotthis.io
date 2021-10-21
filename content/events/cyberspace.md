@@ -29,9 +29,9 @@ schedule:
       <div class="text-white mt-12 mb-4">
         <h2 class="text-3xl font-theme mb-2">Workshop Day - Jan 14</h2>
         <p class="mb-4">Each of our three workshops takes place over 2 hours and will feature both content and hands-on group exercises. Each workshop is £30 with an all-day ticket granting access to all workshops costing £75.</p>
-        <div class="flex items-start space-x-4 text-lg uppercase font-bold">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2" href="#">Buy Workshop Tickets</a>
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2" href="#">Apply for Scholarship</a>
+        <div class="flex flex-col sm:flex-row items-start sm:space-x-4 space-y-4 sm:space-y-0 text-lg uppercase font-bold">
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center w-full sm:w-auto block sm:inline-block" href="#">Buy Workshop Tickets</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center w-full sm:w-auto block sm:inline-block" href="#">Apply for Scholarship</a>
         </div>
       </div>
   - title: 'Awaiting Title'
@@ -64,7 +64,7 @@ schedule:
         <h2 class="text-3xl font-theme mb-2">Conference Day - Jan 15</h2>
         <p class="mb-4">Our conference day is completely free with 9 amazing speakers. Each talk is 25 minutes with the opportunity to ask some questions at the end.</p>
         <div class="flex items-start space-x-4 text-lg uppercase font-bold">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2" href="#">Get Free Ticket</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="#">Get Free Ticket</a>
         </div>
       </div>
   

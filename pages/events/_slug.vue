@@ -8,11 +8,11 @@
         class="w-full border border-gray-300 dark:border-gray-600 og"
       />
       <a :href="event.cobrand_url">
-        <nuxt-img
+        <img
           v-if="event.cobrand_image"
           :src="event.cobrand_image"
           :alt="event.cobrand_text"
-          class="cobrand"
+          class="cobrand w-full"
         />
       </a>
       <div
