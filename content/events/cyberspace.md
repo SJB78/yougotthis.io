@@ -42,14 +42,14 @@ schedule:
       name: Amy Dickens
       twitter: RedRoxProjects
       bio: 'Awaiting Bio'
-  - title: 'Awaiting Title'
+  - title: The Improvisation Workshop You Won't Hate!
     time: 2022-01-14T13:00Z
     type: content
-    abstract: Awaiting Abstract
+    abstract: The workplace can be a minefield of 'right choices' and 'wrong moves'. It can also be a mushy, confusing blend of professional and personal. Shifting your attitude towards improvisation can help you navigate the choices and pressures you face. This workshop will give you the mental, emotional, and practical skills to build improvisation strategies into your daily life, even if the thought of being on stage makes you want to run screaming down the street! This workshop is for people at any stage of their career, and especially for people who don't like public speaking.
     speaker:
       name: Jocelyn Spence
       twitter: stronglanguage
-      bio: 'Awaiting Bio'
+      bio: 'Jocelyn is an experience design researcher and former user experience designer (and tech writer, and educator, and too many other things to count). The interaction design PhD she uses in computer science came from the Theatre Department at the University of Surrey. Improvisational storytelling is at the heart of her design research. It is also central to the way she lives in general, from office to home to outwitting the Prince of Fools in a murky swamp!'
   - title: 'From Conflict to Cooperation'
     time: 2022-01-14T16:00Z
     type: content
@@ -67,7 +67,7 @@ schedule:
           <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="#">Get Free Ticket</a>
         </div>
       </div>
-  
+
   - title: 'Making Your 1-1s Effective'
     time: 2022-01-14T10:20Z
     type: content
@@ -82,14 +82,14 @@ schedule:
     abstract: 'Today we are spending most of our day in front of a computer and quite a bit of that time with our cameras on. This change has happened rapidly and the transition from being in a meeting room to being in front of a camera can be difficult. In this talks I will present several tips and tricks on make the most of your video call setup by making tweaks to poisitioning, improving your body language, and using free software to make your setup shine.'
     speaker:
       name: Felix Kerger
-      bio: "Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development."    
+      bio: "Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development."
   - title: 'Buying Back Your Time'
     time: 2022-01-14T12:00Z
     type: content
     abstract: 'If you had the choice of saving money or saving time, what would you pick?
     If you had the choice of saving money or saving time, what would you pick? Many people start their careers by trying to spend as little as possible, but as you progress it may not make sense to continue doing the same. In this talk, we will discuss how and when to balance these priorities so you can have a happier and healthier relationship with spending money.'
     speaker:
-      name:  Akash Goswami 
+      name:  Akash Goswami
       twitter: akashgoswami_
       bio: Akash is a Cyber Security Analyst at Monzo Bank. He has a strong interest in personal finance (and also runs a personal finance newsletter), video games and brewing the perfect coffee. When Akash isn't in front of a keyboard, he's usually out exploring new places, reading a book in a coffee shop or taking his dog on long walks in country parks.
   - title: 'On To The Next: Planning & Preparing For Your Next Role'
@@ -172,11 +172,3 @@ css: |
   html.dark .og { border: none }
   html.dark .event-meta { border-color: black; }
 ---
-
-
-<!-- What is it -->
-<!-- WORKSHOP DAY WITH BUY ALL TIX -->
-<!-- Each workshop -->
-<!-- CONFERENCE DAY WITH REGISTER -->
-<!-- Each talk -->
-<!-- FAQ -->
