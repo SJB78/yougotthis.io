@@ -133,11 +133,11 @@
                 :href="`https://twitter.com/${session.speaker.twitter}`"
                 aria-label="Twitter"
               >
-                <Twitter class="h-4 ml-2 mr-6" />
+                <Twitter class="h-4 ml-2" />
               </a>
-              <span v-if="session.time" class="w-full md:w-auto">
+              <span v-if="session.time" class="w-full md:w-auto md:ml-6">
                 Begins
-                {{ $moment.utc(session.time).local().format('h:mm A') }}
+                {{ $moment.utc(session.time).local().format('h:mmA') }}
                 {{ $moment.tz.guess(true).split('/')[1] }}
               </span>
             </h3>
