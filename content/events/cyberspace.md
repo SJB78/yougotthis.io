@@ -10,7 +10,8 @@ cobrand_image: '/img/events/misc/powered-by-bryter.png'
 cobrand_text: 'Powered by BRYTER'
 cobrand_url: 'https://bryter.com/careers/'
 links:
-  - text: 'Tickets available November 1st'
+  - text: 'Get Tickets'
+    url: 'https://ti.to/yougotthisconf/cyberspace'
 photo: '/img/events/og/cyberspace.png'
 sponsors:
   - ably
@@ -31,18 +32,18 @@ schedule:
         <p class="mb-2">Each of our three workshops takes place over 2 hours and will feature both content and hands-on group exercises. Each workshop is £30 with an all-day ticket granting access to all workshops costing £75.</p>
         <p class="mb-4">If you are from an underrepresented group in tech, or otherwise cannot afford this paid activity, please feel free to apply for a scholarship through our inclusion programme. If the link is available below then there we are still considering applications.</p>
         <div class="grid gap-4 md:grid-cols-2 uppercase font-bold">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="#">Buy Workshop Tickets</a>
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="#">Apply for Scholarship</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://ti.to/yougotthisconf/cyberspace">Buy Workshop Tickets</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://airtable.com/shrEuudvDJ8GN9XuY">Apply for Scholarship</a>
         </div>
       </div>
-  - title: 'Awaiting Title'
+  - title: 'Improve Your Writing Using Accessible Language'
     time: 2022-01-14T10:00Z
     type: content
-    abstract: Awaiting Abstract
+    abstract: You may think that you are already using clear language in your work, but tthere are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
     speaker:
       name: Amy Dickens
       twitter: RedRoxProjects
-      bio: 'Awaiting Bio'
+      bio: 'Amy is an accessibility consultant for music software and hardware. They are a certified Accessibility Specialist awarded by the International Association of Accessibility Professionals. Since 2015 Amy has been researching accessible digital musical instruments. They currently work within the music technology industry helping clients improve access to their products.'
   - title: The Improvisation Workshop You Won't Hate!
     time: 2022-01-14T13:00Z
     type: content
@@ -65,7 +66,7 @@ schedule:
         <h2 class="text-3xl font-theme mb-2">Conference Day - Jan 15</h2>
         <p class="mb-4">Our conference day is completely free with 9 amazing speakers. Each talk is 25 minutes with the opportunity to ask some questions at the end.</p>
         <div class="flex items-start space-x-4 text-lg uppercase font-bold">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="#">Get Free Ticket</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="https://ti.to/yougotthisconf/cyberspace">Get Free Ticket</a>
         </div>
       </div>
 
@@ -151,7 +152,7 @@ schedule:
           <dt class="mt-4 font-bold">What are you doing to make your event inclusive?</dt>
           <dd>The event will be live captioned and after the event we will provide recordings with transcripts. We are paying speakers for their time to ensure speaking is accessible to all. We are also making a number of free workshop tickets available as part of our inclusion program. We have a <a href="/conduct" class="underline">Code of Conduct</a> and take the enforcement of it very seriously.</dd>
           <dt class="mt-4 font-bold">How does your inclusion program work?</dt>
-          <dd>Our inclusion programme provides workshop tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, those with disabilities, and people who do not otherwise have the means to participate in paid activities. The process to apply took 5 minutes, and there was no need to disclose any sensitive information. <a href="#" class="underline">Apply here<a/>.</dd>
+          <dd>Our inclusion programme provides workshop tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, those with disabilities, and people who do not otherwise have the means to participate in paid activities. The process to apply took 5 minutes, and there was no need to disclose any sensitive information. <a href="https://airtable.com/shrEuudvDJ8GN9XuY" class="underline">Apply here<a/>.</dd>
           <dt class="mt-4 font-bold">Will the event be recorded?</dt>
           <dd>The conference talks will be recorded. Portions of our workshops will be given in the format of a talk - these will be recorded and if they make sense as a standalone piece of content they will be added to the talk library.</dd>
           <dt class="mt-4 font-bold">Can I submit a talk?</dt>

@@ -242,7 +242,7 @@ export default {
 
 <style scoped>
 .btn {
-  @apply bg-pink-500 px-4 py-2 text-white text-lg w-full mt-4 block text-center;
+  @apply bg-pink-500 px-4 py-2 text-white text-lg w-full mt-4 block text-center font-bold uppercase;
 }
 .btn.disabled {
   @apply border-2 border-pink-500 bg-transparent text-pink-500 !important;
