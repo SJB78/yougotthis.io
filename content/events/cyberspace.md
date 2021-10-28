@@ -92,22 +92,22 @@ schedule:
       name:  Akash Goswami
       twitter: akashgoswami_
       bio: Akash is a Cyber Security Analyst at Monzo Bank. He has a strong interest in personal finance (and also runs a personal finance newsletter), video games and brewing the perfect coffee. When Akash isn't in front of a keyboard, he's usually out exploring new places, reading a book in a coffee shop or taking his dog on long walks in country parks.
-  - title: 'On To The Next: Planning & Preparing For Your Next Role'
-    time: 2022-01-14T12:40Z
-    type: content
-    abstract: 'There’s one guarantee in your career: you won’t work the same job forever. Don’t wait until you’re at the end of your patience with your current job or for someone to offer you your dream job on a whim—take control of your future by owning and planning your next move well ahead of sending out your resume. In this talk we’ll go over how to discover what you want next through experimentation at your day job, how to prepare to ace the interview, and then how to weigh your options and compare your Future You’s to make smart bets that take you where you want to go. This talk is intended for people who already have jobs in tech, whether they’re thinking about getting a new one or not!'
-    speaker:
-      name: Rachel Nabors
-      twitter: rachelnabors
-      bio: 'Rachel Nabors creates developer education programs and resources on React Core. They believe teaching people the skills needed to find the solutions to the challenges facing humanity is the best possible use of their time on this planet. Rachel has published a book on UI Animation, “Animation at Work,” as well as several graphic novels from their previous career as an award-winning cartoonist. You can find them drinking tea and struggling to play a ukelele in London.'
   - title: '5 Legal Tips To Build Your Business Safely'
-    time: 2022-01-14T14:40Z
+    time: 2022-01-14T12:40Z
     type: content
     abstract: It's not easy to get down to earth, practical, reasonably priced, legal advice. Neil, an experienced tech industry solicitor, will give you five (or more) key legal tips to help you run and build your business, without leaving your bamboozled by legalese. Or with a big bill. Running your own business, or thinking about it? This is for you.
     speaker:
       name: Neil Brown
       twitter: neil_neilzone
       bio: Neil is an Internet, telecoms, and tech lawyer, and he runs English law firm decoded.legal. He's good at giving practical, tech-savvy legal advice, and bad at writing bios.
+  - title: 'On To The Next: Planning & Preparing For Your Next Role'
+    time: 2022-01-14T14:40Z
+    type: content
+    abstract: 'There’s one guarantee in your career: you won’t work the same job forever. Don’t wait until you’re at the end of your patience with your current job or for someone to offer you your dream job on a whim—take control of your future by owning and planning your next move well ahead of sending out your resume. In this talk we’ll go over how to discover what you want next through experimentation at your day job, how to prepare to ace the interview, and then how to weigh your options and compare your Future You’s to make smart bets that take you where you want to go. This talk is intended for people who already have jobs in tech, whether they’re thinking about getting a new one or not!'
+    speaker:
+      name: Rachel Nabors
+      twitter: rachelnabors
+      bio: 'Rachel Nabors creates developer education programs and resources on React Core. They believe teaching people the skills needed to find the solutions to the challenges facing humanity is the best possible use of their time on this planet. Rachel has published a book on UI Animation, “Animation at Work,” as well as several graphic novels from their previous career as an award-winning cartoonist. You can find them drinking tea and struggling to play a ukelele in London.'
   - title: 'Escaping Isolation While Working Remotely'
     time: 2022-01-14T15:20Z
     type: content
