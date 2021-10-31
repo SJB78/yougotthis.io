@@ -45,11 +45,11 @@ css: |
   .btn{background-color:#fe8296!important;}
   .header-bar,.footer-bar{background:#ffca27!important;}
   .header-bar a, .footer-bar a { color: black; }
-  html:not(.dark) .talk:nth-child(2){background:#ffe89f; border-color: #ffca27;}
-  html:not(.dark) .talk:nth-child(2) * {border-color: #ffca27;}
-  html:not(.dark) .talk:nth-child(3){background:#bfe8ef; border-color: #75cdd7;}
-  html:not(.dark) .talk:nth-child(3) * {border-color: #75cdd7;}
-  html:not(.dark) .talk:nth-child(4) {background:#ffced7; border-color: #fe8296;}
-  html:not(.dark) .talk:nth-child(4)  * {border-color: #fe8296;}
-  .event-meta h1, .talk h2 {font-family:'Eyeful',sans-serif;}
+  html:not(.dark) .content:nth-child(2) > div {background:#ffe89f; border-color: #ffca27;}
+  html:not(.dark) .content:nth-child(2) > div  * {border-color: #ffca27;}
+  html:not(.dark) .content:nth-child(3) > div {background:#bfe8ef; border-color: #75cdd7;}
+  html:not(.dark) .content:nth-child(3) > div  * {border-color: #75cdd7;}
+  html:not(.dark) .content:nth-child(4) > div  {background:#ffced7; border-color: #fe8296;}
+  html:not(.dark) .content:nth-child(4) > div   * {border-color: #fe8296;}
+  .event-meta h1, .content h2 {font-family:'Eyeful',sans-serif;}
 ---
