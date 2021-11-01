@@ -39,7 +39,7 @@ schedule:
   - title: 'Improve Your Writing Using Accessible Language'
     time: 2022-01-14T10:00Z
     type: content
-    abstract: You may think that you are already using clear language in your work, but tthere are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
+    abstract: You may think that you are already using clear language in your work, but there are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
     speaker:
       name: Amy Dickens
       twitter: RedRoxProjects
@@ -88,8 +88,7 @@ schedule:
   - title: 'Buying Back Your Time'
     time: 2022-01-14T12:00Z
     type: content
-    abstract: 'If you had the choice of saving money or saving time, what would you pick?
-    If you had the choice of saving money or saving time, what would you pick? Many people start their careers by trying to spend as little as possible, but as you progress it may not make sense to continue doing the same. In this talk, we will discuss how and when to balance these priorities so you can have a happier and healthier relationship with spending money.'
+    abstract: 'If you had the choice of saving money or saving time, what would you pick? Many people start their careers by trying to spend as little as possible, but as you progress it may not make sense to continue doing the same. In this talk, we will discuss how and when to balance these priorities so you can have a happier and healthier relationship with spending money.'
     speaker:
       name:  Akash Goswami
       twitter: akashgoswami_
