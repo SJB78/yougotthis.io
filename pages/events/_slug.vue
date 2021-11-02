@@ -90,6 +90,14 @@
           </div>
         </div>
       </div>
+      <div v-if="event.fontToggle">
+        <button
+          class="text-center text-white block mt-4 w-full"
+          @click="disableFont"
+        >
+          Temporarily disable font theme
+        </button>
+      </div>
     </aside>
 
     <main class="col-span-3">
@@ -236,6 +244,12 @@ export default {
       ],
       link,
     }
+  },
+  methods: {
+    disableFont() {
+      document.documentElement.classList.add('default-font')
+      this.event.fontToggle = false
+    },
   },
 }
 </script>

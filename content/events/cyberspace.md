@@ -84,13 +84,13 @@ schedule:
     abstract: 'Today we are spending most of our day in front of a computer and quite a bit of that time with our cameras on. This change has happened rapidly and the transition from being in a meeting room to being in front of a camera can be difficult. In this talks I will present several tips and tricks on make the most of your video call setup by making tweaks to poisitioning, improving your body language, and using free software to make your setup shine.'
     speaker:
       name: Felix Kerger
-      bio: "Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development."
+      bio: 'Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development.'
   - title: 'Buying Back Your Time'
     time: 2022-01-14T12:00Z
     type: content
     abstract: 'If you had the choice of saving money or saving time, what would you pick? Many people start their careers by trying to spend as little as possible, but as you progress it may not make sense to continue doing the same. In this talk, we will discuss how and when to balance these priorities so you can have a happier and healthier relationship with spending money.'
     speaker:
-      name:  Akash Goswami
+      name: Akash Goswami
       twitter: akashgoswami_
       bio: Akash is a Cyber Security Analyst at Monzo Bank. He has a strong interest in personal finance (and also runs a personal finance newsletter), video games and brewing the perfect coffee. When Akash isn't in front of a keyboard, he's usually out exploring new places, reading a book in a coffee shop or taking his dog on long walks in country parks.
   - title: '5 Legal Tips To Build Your Business Safely'
@@ -164,12 +164,14 @@ cssFile: '/fonts/monoton.css'
 css: |
   body, html.dark .main { background: #250d3e !important; }
   header .notice { display: none }
-  .event-meta h1, .content h2 {font-family:'monoton',sans-serif; color: #250d3e; text-transform: uppercase; }
+  .event-meta h1, .content h2 {font-family:'monoton',sans-serif; color: #250d3e; text-transform: uppercase; word-spacing: 10px; }
   .event-meta h1 { text-shadow: 0 0 80px #fa6aff,0 0 30px #7b3cbc,0 0 6px #7b3cbc }
   .content h2, .glow { text-shadow: 0 0 30px #7b3cbc,0 0 6px #7b3cbc }
-  .font-theme { font-family:'monoton',sans-serif; text-transform: uppercase;  }
+  .font-theme { font-family:'monoton',sans-serif; text-transform: uppercase; word-spacing: 10px;  }
   html.dark .event-meta h1, html.dark .content h2, html.dark .event-before * { color: white; }
   .og { border-color: #250d3e }
   html.dark .og { border: none }
   html.dark .event-meta { border-color: black; }
+  html.default-font *, html.default-font .event-meta h1, html.default-font .content h2, html.default-font .font-theme { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important }
+fontToggle: true
 ---
