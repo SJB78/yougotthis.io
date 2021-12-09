@@ -172,7 +172,7 @@
             {{ session.title }}
             <span v-if="session.time">
               ({{ $moment.utc(session.time).local().format('h:mm A') }}
-              {{ $moment.tz($moment.tz.guess(true)).format('z') }})
+              {{ $moment.tz.guess(true).split('/')[1] }})
             </span>
           </h2>
         </div>
