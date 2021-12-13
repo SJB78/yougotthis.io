@@ -18,6 +18,7 @@ sponsors:
   - balsamiq
   - bryter
   - circle-ci
+  - twilio
 schedule:
   - type: html
     html: |
