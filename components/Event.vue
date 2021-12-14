@@ -27,7 +27,7 @@
       class="border-2 border-gray-200 dark:border-gray-800 w-full flex flex-col"
     >
       <div class="relative">
-        <img :src="`/img/events/og/${event.logo}`" alt="" />
+        <img :src="`/img/events/og/${event.og}`" alt="" />
         <span
           class="
             absolute
