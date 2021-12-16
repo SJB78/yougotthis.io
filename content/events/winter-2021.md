@@ -8,7 +8,9 @@ time: '5PM UTC'
 og: winter.jpg
 sponsors:
   - circle-ci
-luma: evt-xHjktkqZu5TQBNz
+links:
+  - text: Join live
+    url: 'https://live.yougotthis.io'
 before:
   - content: <p>Unlike our other events which have talks or workshops, this chill end-of-year event will be focused on having fun, winning prizes, and meeting new people.</p>
 schedule:
