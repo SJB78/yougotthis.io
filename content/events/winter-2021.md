@@ -1,4 +1,5 @@
 ---
+past: true
 title: 'You Got This Through the Seasons: Winter 2021'
 short: Join us for a fun and friendly night of games to round out the year.
 type: Social
