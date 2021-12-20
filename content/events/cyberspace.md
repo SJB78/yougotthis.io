@@ -70,7 +70,12 @@ schedule:
           <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="https://ti.to/yougotthisconf/cyberspace">Get Free Ticket</a>
         </div>
       </div>
-
+  - time: 2022-01-15T10:00Z
+    title: Welcome & Announcements
+    type: aside
+  - time: 2022-01-15T10:10Z
+    title: "Sponsor Talk: BRYTER"
+    type: aside
   - title: 'Making Your 1-1s Effective'
     time: 2022-01-14T10:20Z
     type: content
@@ -86,6 +91,12 @@ schedule:
     speaker:
       name: Felix Kerger
       bio: 'Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development.'
+  - time: 2022-01-15T11:40Z
+    title: "Sponsor Talk: Ably"
+    type: aside
+  - time: 2022-01-15T11:45Z
+    title: "15 Minute Break"
+    type: aside
   - title: 'Buying Back Your Time'
     time: 2022-01-14T12:00Z
     type: content
@@ -102,6 +113,15 @@ schedule:
       name: Neil Brown
       twitter: neil_neilzone
       bio: Neil is an Internet, telecoms, and tech lawyer, and he runs English law firm decoded.legal. He's good at giving practical, tech-savvy legal advice, and bad at writing bios.
+  - time: 2022-01-15T13:20Z
+    title: "Sponsor Talk: Twilio"
+    type: aside
+  - time: 2022-01-15T13:25Z
+    title: "60 Minute Break"
+    type: aside
+  - time: 2022-01-15T14:30Z
+    title: "Sponsor Talk: BRYTER"
+    type: aside
   - title: 'On To The Next: Planning & Preparing For Your Next Role'
     time: 2022-01-14T14:40Z
     type: content
@@ -118,6 +138,12 @@ schedule:
       name: Niamh McCooey
       twitter: niamhmccoo
       bio: Niamh is a frontend developer at Elsewhen. After learning to code in her spare time, she switched careers from publishing to tech in 2019 and has never looked back. She loves learning new things and helping those underrepresented in tech to flourish in their careers. When she's not building web apps or hanging out at meetups, she’s often working on her swimming technique in the salty Irish Sea 🏊‍♀️
+  - time: 2022-01-15T16:00Z
+    title: "Sponsor Talk: Balsamiq"
+    type: aside
+  - time: 2022-01-15T16:05Z
+    title: "15 Minute Break"
+    type: aside
   - title: 'Building Team Trust Virtually'
     time: 2022-01-14T16:20Z
     type: content
@@ -134,6 +160,9 @@ schedule:
       name: Vidhika Bansal
       twitter: vidhster
       bio: 'Vidhika is a UX Group Manager at Intuit with a background in behavioral science, brand strategy, and human-centered design. She’s convinced that words are magic and that stories can change the world. She also gets really jazzed about good food, memorable analogies, the power of human connection, and exploring new places and perspectives.'
+  - time: 2022-01-15T17:40Z
+    title: "Sponsor Talk: CircleCI"
+    type: aside
   - title: 'Getting Unstuck: Strategies For Solving Problems'
     time: 2022-01-14T18:00Z
     type: content
@@ -142,6 +171,9 @@ schedule:
       name: Steven Hicks
       twitter: pepopowitz
       bio: Steven Hicks is a Senior Engineer at Artsy. He loves JavaScript and specializes as a generalist. Steve believes that code is written for humans, and that if you ain't falling, you ain't learning. When he isn't talking to the duck or smooshing 1s and 0s, you can find Steve outside -- probably camping with his family, running trails, or riding his bike.
+  - time: 2022-01-15T18:40Z
+    title: "Wrap Up & Farewell"
+    type: aside
   - type: html
     html: |
       <div class="p-4 bg-[#9d3eb2] text-white mb-4">
@@ -174,5 +206,7 @@ css: |
   html.dark .og { border: none }
   html.dark .event-meta { border-color: black; }
   html.default-font *, html.default-font .event-meta h1, html.default-font .content h2, html.default-font .font-theme { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important }
+  .aside+.aside { margin-top: -2em; }
+  .aside { color: white }
 fontToggle: true
 ---
