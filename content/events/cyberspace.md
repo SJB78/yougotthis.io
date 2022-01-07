@@ -163,6 +163,9 @@ schedule:
   - time: 2022-01-15T17:40Z
     title: "Sponsor Talk: CircleCI"
     type: aside
+  - time: 2022-01-15T17:45Z
+    title: "15 Minute Break"
+    type: aside
   - title: 'Getting Unstuck: Strategies For Solving Problems'
     time: 2022-01-14T18:00Z
     type: content
