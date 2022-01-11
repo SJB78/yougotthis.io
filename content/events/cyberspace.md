@@ -92,7 +92,7 @@ schedule:
       name: Felix Kerger
       bio: 'Felix Kerger is an experienced developer advocate with more than 16 years of experience in programming. He is currently working for Wildlife Studios, a leading mobile game developer, leading the developer relations team. Prior, Felix worked for King as a Developer Advocate and Unity as an Enterprise Support engineer in Europe. Felix also published a textbook about an open-source render engine and talked at different conferences about software development and, more specifically, game development.'
   - time: 2022-01-15T11:40Z
-    title: "Sponsor Talk: Ably"
+    title: "Sponsor Talk: CircleCI"
     type: aside
   - time: 2022-01-15T11:45Z
     title: "15 Minute Break"
@@ -161,7 +161,7 @@ schedule:
       twitter: vidhster
       bio: 'Vidhika is a UX Group Manager at Intuit with a background in behavioral science, brand strategy, and human-centered design. She’s convinced that words are magic and that stories can change the world. She also gets really jazzed about good food, memorable analogies, the power of human connection, and exploring new places and perspectives.'
   - time: 2022-01-15T17:40Z
-    title: "Sponsor Talk: CircleCI"
+    title: "Sponsor Talk: Ably"
     type: aside
   - time: 2022-01-15T17:45Z
     title: "15 Minute Break"
