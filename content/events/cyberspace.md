@@ -31,10 +31,11 @@ schedule:
       <div class="text-white mt-12 mb-4">
         <h2 class="text-3xl font-theme mb-2">Workshop Day - Jan 14</h2>
         <p class="mb-2">Each of our three workshops takes place over 2 hours and will feature both content and hands-on group exercises. Each workshop is £30 with an all-day ticket granting access to all workshops costing £75.</p>
-        <p class="mb-4">If you are from an underrepresented group in tech, or otherwise cannot afford this paid activity, please feel free to apply for a scholarship through our inclusion programme. If the link is available below then there we are still considering applications.</p>
-        <div class="grid gap-4 md:grid-cols-2 uppercase font-bold">
+        <!--<p class="mb-4">If you are from an underrepresented group in tech, or otherwise cannot afford this paid activity, please feel free to apply for a scholarship through our inclusion programme. If the link is available below then there we are still considering applications.</p>-->
+        <!--<div class="grid gap-4 md:grid-cols-2 uppercase font-bold">-->
+        <div class="mt-4 mb-8 uppercase font-bold grid grid-cols-1">
           <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://ti.to/yougotthisconf/cyberspace">Buy Workshop Tickets</a>
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://airtable.com/shrEuudvDJ8GN9XuY">Apply for Scholarship</a>
+          <!--<a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://airtable.com/shrEuudvDJ8GN9XuY">Apply for Scholarship</a>-->
         </div>
       </div>
   - title: 'Improve Your Writing Using Accessible Language'
@@ -187,11 +188,11 @@ schedule:
           <dt class="mt-4 font-bold">What are you doing to make your event inclusive?</dt>
           <dd>The event will be live captioned and after the event we will provide recordings with transcripts. We are paying speakers for their time to ensure speaking is accessible to all. We are also making a number of free workshop tickets available as part of our inclusion program. We have a <a href="/conduct" class="underline">Code of Conduct</a> and take the enforcement of it very seriously.</dd>
           <dt class="mt-4 font-bold">How does your inclusion program work?</dt>
-          <dd>Our inclusion programme provides workshop tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, those with disabilities, and people who do not otherwise have the means to participate in paid activities. The process to apply took 5 minutes, and there was no need to disclose any sensitive information. <a href="https://airtable.com/shrEuudvDJ8GN9XuY" class="underline">Apply here<a/>.</dd>
+          <dd>Our inclusion programme provides workshop tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, those with disabilities, and people who do not otherwise have the means to participate in paid activities. The process to apply took 5 minutes, and there was no need to disclose any sensitive information. Applications have now closed.</dd>
           <dt class="mt-4 font-bold">Will the event be recorded?</dt>
           <dd>The conference talks will be recorded. Portions of our workshops will be given in the format of a talk - these will be recorded and if they make sense as a standalone piece of content they will be added to the talk library.</dd>
           <dt class="mt-4 font-bold">Can I submit a talk?</dt>
-          <dd>We had opened our talk submissions process and it closed September 30st 2021 before all submissions were sent to a blind review panel. We are not accepting any new speakers.</dd>
+          <dd>We had opened our talk submissions process and it closed September 30th 2021 before all submissions were sent to a blind review panel. We are not accepting any new speakers.</dd>
           <dt class="mt-4 font-bold">Can I ask more questions?</dt>
           <dd>Most certainly! DM us on <a class="underline" href="https://twitter.com/yougotthisconf">Twitter</a> or <a class="underline" href="mailto:kevin@yougotthis.io">send us an email</a>.</dd>
         </dl>
