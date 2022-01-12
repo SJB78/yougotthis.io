@@ -29,42 +29,6 @@ schedule:
   - type: html
     html: |
       <div class="text-white mt-12 mb-4">
-        <h2 class="text-3xl font-theme mb-2">Workshop Day - Jan 14</h2>
-        <p class="mb-2">Each of our three workshops takes place over 2 hours and will feature both content and hands-on group exercises. Each workshop is £30 with an all-day ticket granting access to all workshops costing £75.</p>
-        <!--<p class="mb-4">If you are from an underrepresented group in tech, or otherwise cannot afford this paid activity, please feel free to apply for a scholarship through our inclusion programme. If the link is available below then there we are still considering applications.</p>-->
-        <!--<div class="grid gap-4 md:grid-cols-2 uppercase font-bold">-->
-        <div class="mt-4 mb-8 uppercase font-bold grid grid-cols-1">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://ti.to/yougotthisconf/cyberspace">Buy Workshop Tickets</a>
-          <!--<a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://airtable.com/shrEuudvDJ8GN9XuY">Apply for Scholarship</a>-->
-        </div>
-      </div>
-  - title: 'Improve Your Writing Using Accessible Language'
-    time: 2022-01-14T10:00Z
-    type: content
-    abstract: You may think that you are already using clear language in your work, but there are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
-    speaker:
-      name: Amy Dickens
-      twitter: RedRoxProjects
-      bio: 'Amy is an accessibility consultant for music software and hardware. They are a certified Accessibility Specialist awarded by the International Association of Accessibility Professionals. Since 2015 Amy has been researching accessible digital musical instruments. They currently work within the music technology industry helping clients improve access to their products.'
-  - title: The Improvisation Workshop You Won't Hate!
-    time: 2022-01-14T13:00Z
-    type: content
-    abstract: The workplace can be a minefield of 'right choices' and 'wrong moves'. It can also be a mushy, confusing blend of professional and personal. Shifting your attitude towards improvisation can help you navigate the choices and pressures you face. This workshop will give you the mental, emotional, and practical skills to build improvisation strategies into your daily life, even if the thought of being on stage makes you want to run screaming down the street! This workshop is for people at any stage of their career, and especially for people who don't like public speaking.
-    speaker:
-      name: Jocelyn Spence
-      twitter: stronglanguage
-      bio: 'Jocelyn is an experience design researcher and former user experience designer (and tech writer, and educator, and too many other things to count). The interaction design PhD she uses in computer science came from the Theatre Department at the University of Surrey. Improvisational storytelling is at the heart of her design research. It is also central to the way she lives in general, from office to home to outwitting the Prince of Fools in a murky swamp!'
-  - title: 'From Conflict to Cooperation'
-    time: 2022-01-14T16:00Z
-    type: content
-    abstract: Conflict Resolution is a key skill in working effectively in engineering organizations. In this workshop, we'll review the causes of conflict, how to navigate and negotiate differences in perspectives, and develop language and process skills to manage, mitigate, and prevent conflict. With a basis in I/O Psychology and Management Science, this talk is relevant to all engineers from entry-level individual contributors to engineering executives.
-    speaker:
-      name: Jordan M. Adler
-      twitter: jordanmadler
-      bio: 'Jordan M. Adler is the Head of Developer Engineering at OneSignal. Previously, Jordan evolved Engineering Productivity at Cruise, led API Platform engineering at Pinterest, and was a Strategic Partner Engineer and Developer Advocate at Google, where he managed technical partnerships between major organizations and Google. Jordan continues to drive the evolution of developer ecosystems.'
-  - type: html
-    html: |
-      <div class="text-white mt-12 mb-4">
         <h2 class="text-3xl font-theme mb-2">Conference Day - Jan 15</h2>
         <p class="mb-4">Our conference day is completely free with 9 amazing speakers. Each talk is 25 minutes with the opportunity to ask some questions at the end.</p>
         <div class="flex items-start space-x-4 text-lg uppercase font-bold">
@@ -178,6 +142,42 @@ schedule:
   - time: 2022-01-15T18:40Z
     title: "Wrap Up & Farewell"
     type: aside
+  - type: html
+    html: |
+      <div class="text-white mt-12 mb-4">
+        <h2 class="text-3xl font-theme mb-2">Workshop Day - Jan 14</h2>
+        <!--<p class="mb-2">Each of our three workshops takes place over 2 hours and will feature both content and hands-on group exercises. Each workshop is £30 with an all-day ticket granting access to all workshops costing £75.</p>
+        <p class="mb-4">If you are from an underrepresented group in tech, or otherwise cannot afford this paid activity, please feel free to apply for a scholarship through our inclusion programme. If the link is available below then there we are still considering applications.</p>
+        <div class="grid gap-4 md:grid-cols-2 uppercase font-bold">
+        <div class="mt-4 mb-8 uppercase font-bold grid grid-cols-1">
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://ti.to/yougotthisconf/cyberspace">Buy Workshop Tickets</a>
+          <!--<a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 text-center" href="https://airtable.com/shrEuudvDJ8GN9XuY">Apply for Scholarship</a>
+        </div>-->
+      </div>
+  - title: 'Improve Your Writing Using Accessible Language'
+    time: 2022-01-14T10:00Z
+    type: content
+    abstract: You may think that you are already using clear language in your work, but there are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
+    speaker:
+      name: Amy Dickens
+      twitter: RedRoxProjects
+      bio: 'Amy is an accessibility consultant for music software and hardware. They are a certified Accessibility Specialist awarded by the International Association of Accessibility Professionals. Since 2015 Amy has been researching accessible digital musical instruments. They currently work within the music technology industry helping clients improve access to their products.'
+  # - title: The Improvisation Workshop You Won't Hate!
+  #   time: 2022-01-14T13:00Z
+  #   type: content
+  #   abstract: The workplace can be a minefield of 'right choices' and 'wrong moves'. It can also be a mushy, confusing blend of professional and personal. Shifting your attitude towards improvisation can help you navigate the choices and pressures you face. This workshop will give you the mental, emotional, and practical skills to build improvisation strategies into your daily life, even if the thought of being on stage makes you want to run screaming down the street! This workshop is for people at any stage of their career, and especially for people who don't like public speaking.
+  #   speaker:
+  #     name: Jocelyn Spence
+  #     twitter: stronglanguage
+  #     bio: 'Jocelyn is an experience design researcher and former user experience designer (and tech writer, and educator, and too many other things to count). The interaction design PhD she uses in computer science came from the Theatre Department at the University of Surrey. Improvisational storytelling is at the heart of her design research. It is also central to the way she lives in general, from office to home to outwitting the Prince of Fools in a murky swamp!'
+  - title: 'From Conflict to Cooperation'
+    time: 2022-01-14T16:00Z
+    type: content
+    abstract: Conflict Resolution is a key skill in working effectively in engineering organizations. In this workshop, we'll review the causes of conflict, how to navigate and negotiate differences in perspectives, and develop language and process skills to manage, mitigate, and prevent conflict. With a basis in I/O Psychology and Management Science, this talk is relevant to all engineers from entry-level individual contributors to engineering executives.
+    speaker:
+      name: Jordan M. Adler
+      twitter: jordanmadler
+      bio: 'Jordan M. Adler is the Head of Developer Engineering at OneSignal. Previously, Jordan evolved Engineering Productivity at Cruise, led API Platform engineering at Pinterest, and was a Strategic Partner Engineer and Developer Advocate at Google, where he managed technical partnerships between major organizations and Google. Jordan continues to drive the evolution of developer ecosystems.'
   - type: html
     html: |
       <div class="p-4 bg-[#9d3eb2] text-white mb-4">
