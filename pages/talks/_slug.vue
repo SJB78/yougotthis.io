@@ -125,7 +125,7 @@
               :class="{
                 'grid-cols-2': sponsors.length % 2 == 0 || sponsors.length == 1,
                 'grid-cols-2 sm:grid-cols-3':
-                  sponsors.length % 3 == 0 && sponsors.length > 1,
+                  sponsors.length % 2 != 0 && sponsors.length > 1,
               }"
             >
               <a

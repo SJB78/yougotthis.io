@@ -1,6 +1,16 @@
 export const state = () => ({
   past: [
     {
+      title: 'You Got This In Cyberspace',
+      date: '2022-01-14',
+      location: 'Online',
+      type: 'Conference',
+      url: '/events/cyberspace',
+      og: 'cyberspace.png',
+      icon: 'cyberspace.png',
+      sponsors: ['bryter', 'ably', 'balsamiq', 'circle-ci', 'twilio'],
+    },
+    {
       title: 'You Got This Through the Seasons: Fall 2021',
       date: '2021-10-14',
       location: 'Online',
