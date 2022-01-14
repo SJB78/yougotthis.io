@@ -9,6 +9,7 @@ export const state = () => ({
       og: 'cyberspace.png',
       icon: 'cyberspace.png',
       sponsors: ['bryter', 'ably', 'balsamiq', 'circle-ci', 'twilio'],
+      tag: 'you-got-this-in-cyberspace',
     },
     {
       title: 'You Got This Through the Seasons: Fall 2021',
@@ -19,6 +20,7 @@ export const state = () => ({
       og: 'fall.jpg',
       icon: 'fall.png',
       sponsors: ['bryter', 'balsamiq', 'circle-ci', 'samsung-internet'],
+      tag: 'you-got-this-through-the-seasons-fall-2021'
     },
     {
       title: 'You Got This Through the Seasons: Summer 2021',
@@ -29,6 +31,7 @@ export const state = () => ({
       og: 'summer.jpg',
       icon: 'summer.png',
       sponsors: ['orbit', 'balsamiq', 'twilio', 'samsung-internet'],
+      tag: 'you-got-this-through-the-seasons-summer-2021'
     },
     {
       title: 'You Got This From Your Couch',
