@@ -10,8 +10,8 @@ cobrand_image: '/img/events/misc/powered-by-bryter.png'
 cobrand_text: 'Powered by BRYTER'
 cobrand_url: 'https://bryter.com/careers/'
 links:
-  - text: 'Get Tickets'
-    url: 'https://ti.to/yougotthisconf/cyberspace'
+  - text: 'Watch Live'
+    url: 'https://live.yougotthis.io'
 photo: '/img/events/og/cyberspace.png'
 sponsors:
   - ably
@@ -32,7 +32,7 @@ schedule:
         <h2 class="text-3xl font-theme mb-2">Conference Day - Jan 15</h2>
         <p class="mb-4">Our conference day is completely free with 9 amazing speakers. Each talk is 25 minutes with the opportunity to ask some questions at the end.</p>
         <div class="flex items-start space-x-4 text-lg uppercase font-bold">
-          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="https://ti.to/yougotthisconf/cyberspace">Get Free Ticket</a>
+          <a class="bg-purple-600 hover:bg-purple-700 transition px-4 py-2 block w-full text-center" href="https://live.yougotthis.io">Watch Live</a>
         </div>
       </div>
   - time: 2022-01-15T10:00Z
