@@ -1,6 +1,6 @@
 ---
 event: 'You Got This Through the Seasons: Summer 2021'
-mux: I9QmZrL00BFm00uSDlq302XIU70222XvMRIwXQJRbEpfyLY
+vimeo: 666548380
 date: 2021-08-12
 talk:
   title: The What, How, and Why of a Code of Ethics

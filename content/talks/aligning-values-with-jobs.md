@@ -1,6 +1,6 @@
 ---
 event: 'You Got This Through the Seasons: Summer 2021'
-mux: iUmX902ISWPNm7kGrcBUDjBYDcjk01utA4vJAT00exzwOA
+vimeo: 666547287
 date: 2021-08-12
 talk:
   title: How to Align Your Values With Your Job
