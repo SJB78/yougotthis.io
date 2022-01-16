@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: RKwjlAefpIHrm1TgGeE66P87Ijyext5fsjalLXAh2zw
+mux: RKwjlAefpIHrm1TgGeE66P87Ijyext5fsjalLXAh2zw
 date: 2020-09-26
 talk:
   title: Managing Your Team in a Time of Overload

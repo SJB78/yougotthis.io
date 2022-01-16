@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: C5dDstOjti01JqNIoft9O8wZl4Y00P15Js43VKfgykPg4
+mux: C5dDstOjti01JqNIoft9O8wZl4Y00P15Js43VKfgykPg4
 date: 2020-01-18
 talk:
   title: 'Level Up: Developing Developers'

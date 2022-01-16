@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: Sdrg1RPrTtm1dueWuKXYvDGhtxHcmfLEHuhCbvJbgkk
+mux: Sdrg1RPrTtm1dueWuKXYvDGhtxHcmfLEHuhCbvJbgkk
 date: 2020-01-18
 talk:
   title: Real Talk About When To Walk Away

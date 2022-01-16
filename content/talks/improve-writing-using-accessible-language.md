@@ -1,9 +1,9 @@
 ---
 event: 'You Got This In Cyberspace'
-video: hQqbkyIV6IaFDCPsF1I401AP9m92lqB9EncO4hL01KIFg
+vimeo: 666498248
 date: 2022-01-14
 talk:
-  title: Improving Your Writing Using Accessible Language
+  title: Improve Your Writing Using Accessible Language
   abstract: You may think that you are already using clear language in your work, but there are many ways in which bad writing habits can confuse and complicate your message. In this workshop we will learn how to use plain language to make documents, emails, web content, and social media posts more accessible. This approach to writing has benefits for most readers and can help you improve your communication with others.
 speakers:
   - name: Amy Dickens
@@ -11,6 +11,7 @@ speakers:
     bio: Amy is an accessibility consultant for music software and hardware. They are a certified Accessibility Specialist awarded by the International Association of Accessibility Professionals. Since 2015 Amy has been researching accessible digital musical instruments. They currently work within the music technology industry helping clients improve access to their products.
     photo: amy-dickens.jpg
 tags: ['you-got-this-in-cyberspace', 'diversity-accessibility-inclusion']
+highlight: true
 ---
 
 Welcome to our workshop today. We're going to be talking about accessible language. This is a thing that kind of will seem - how to put it? - seem like one of those things, like, "Okay, I think I get how to use language. I'm an adult, I've grown up, I've been working on this for however long I've been alive," but there are some things that happen to us as we go throughout our lives where we kind of learn some bad habits, and what I'm going to do today is just to kind of talk about those, and you can still see, yes? Now that I've done full screen? Great.

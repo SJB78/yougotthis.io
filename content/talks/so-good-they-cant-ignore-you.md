@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: jC02NsuFcPapu58zdbnaqCgSi01BLd02aM4nsZUI01AnuZs
+mux: jC02NsuFcPapu58zdbnaqCgSi01BLd02aM4nsZUI01AnuZs
 date: 2020-01-18
 talk:
   title: So Good They Can't Ignore You

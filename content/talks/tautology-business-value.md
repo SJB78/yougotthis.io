@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: 3aRe35V00jTGwj0100pP02wrDEa8fYeHHyJ6CSoAthYYOa8
+mux: 3aRe35V00jTGwj0100pP02wrDEa8fYeHHyJ6CSoAthYYOa8
 date: 2020-06-06
 talk:
   title: Tautology and Business Value

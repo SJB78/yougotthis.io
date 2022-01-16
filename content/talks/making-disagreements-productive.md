@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-video: QnuB89ObvREtn1eyDuc01QS8alMvRIJezqK9UkfKQ1nk
+mux: QnuB89ObvREtn1eyDuc01QS8alMvRIJezqK9UkfKQ1nk
 date: 2021-01-15
 talk:
   title: Making Disagreements at Work Productive

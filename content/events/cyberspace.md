@@ -1,4 +1,5 @@
 ---
+past: true
 title: 'You Got This In Cyberspace'
 short: An online community conference focusing on the non-technical core skills for a happy, healthy work life.
 type: Conference
@@ -10,8 +11,8 @@ cobrand_image: '/img/events/misc/powered-by-bryter.png'
 cobrand_text: 'Powered by BRYTER'
 cobrand_url: 'https://bryter.com/careers/'
 links:
-  - text: 'Watch Live'
-    url: 'https://live.yougotthis.io'
+  - text: 'Watch the talks'
+    url: '/talks?tag=you-got-this-in-cyberspace'
 photo: '/img/events/og/cyberspace.png'
 sponsors:
   - ably

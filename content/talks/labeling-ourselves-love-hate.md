@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: k73rlo00VHhvkA5BoejKpuaL6lmjGOAmQ5Ljgxq1Okuw
+mux: k73rlo00VHhvkA5BoejKpuaL6lmjGOAmQ5Ljgxq1Okuw
 date: 2020-09-26
 talk:
   title: Labeling Ourselves – When We Love It, When We Hate It

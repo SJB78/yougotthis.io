@@ -11,10 +11,10 @@
     "
     :class="{ 'p-4 lg:p-8': !slim, 'p-4': slim }"
   >
-    <h3 class="font-bold mb-4" :class="{ 'text-2xl': !slim }">
+    <h3 class="font-bold mb-4" :class="{ 'md:text-2xl': !slim }">
       {{ talk.talk.title }}
     </h3>
-    <p v-if="!slim" class="mb-6 text-sm">
+    <p v-if="!slim" class="mb-6 text-sm hidden md:block">
       {{ talk.talk.abstract }}
     </p>
     <div class="flex space-x-3 talks-center">

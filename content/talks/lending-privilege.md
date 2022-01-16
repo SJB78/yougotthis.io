@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: wVycZfv2JAhfI01GoeE8SSvUvCPHLyPrreeUwSK02PE4s
+mux: wVycZfv2JAhfI01GoeE8SSvUvCPHLyPrreeUwSK02PE4s
 date: 2020-06-06
 talk:
   title: Lending Privilege

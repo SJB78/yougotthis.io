@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: qZd8F00nN9BsEVm6S5srRhobg6ssT6hddUqxADuFzICs
+mux: qZd8F00nN9BsEVm6S5srRhobg6ssT6hddUqxADuFzICs
 date: 2020-09-26
 talk:
   title: From Miscommunication to Miss Communication

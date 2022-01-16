@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: clx4DKvqRyly8QD7l0057otRnxJtbtnRAVFRStmND5Go
+mux: clx4DKvqRyly8QD7l0057otRnxJtbtnRAVFRStmND5Go
 date: 2020-06-06
 talk:
   title: "Making #RemoteWork Actually Work"
@@ -11,7 +11,7 @@ speakers:
     bio: Lauren Schaefer is a developer advocate for MongoDB. She began her career as a software engineer for IBM where she held a variety of roles including full-stack developer, test automation specialist, and growth hacking engineer. She went on to be a developer advocate at SugarCRM. Lauren holds a BS and MS in Computer Science from North Carolina State University and is the co-inventor of twelve issued United States patents.  She has been working from her home office for the last decade and is an advocate of remote work options.
     photo: lauren-schaefer.jpg
 notes: '<p><a href="https://www.slideshare.net/LaurenHaywardSchaefe/making-remotework-actually-work">Talk slides</a></p>'
-tags: ['you-got-this-2020-from-home', 'working-with-others' ]
+tags: ['you-got-this-2020-from-home', 'working-from-home' ]
 ---
 
 Before I jump into talking about remote work, I want to acknowledge there is a lot going on in the world right now. Many of us are feeling sad, many of us are feeling frustration, many of us are feeling angry, and many of us are hurting. For years, we have had a pattern of racial injustice and systematic racism in the US. For many of us, current events have increased our awareness of this ugly problem. We must change. We must do better.

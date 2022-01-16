@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: Pv02Ochfa7cdC7WDcBIlb85Xj82yewUh01X8keTeYNID00
+mux: Pv02Ochfa7cdC7WDcBIlb85Xj82yewUh01X8keTeYNID00
 date: 2020-09-26
 talk:
   title: Understanding & Looking After Your Mental Health

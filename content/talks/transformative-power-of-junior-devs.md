@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: otv01G6KDTsh59t00RlLmzLICu8yc01701iMWa7kpKgux01g
+mux: otv01G6KDTsh59t00RlLmzLICu8yc01701iMWa7kpKgux01g
 date: 2019-01-19
 talk:
   title: The Transformative Power of Junior Developers

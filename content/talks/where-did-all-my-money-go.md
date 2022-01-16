@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: tTke4rBTSubXCXu9wRbqbGNMCJn8CvvEU01LXEizLE1Q
+mux: tTke4rBTSubXCXu9wRbqbGNMCJn8CvvEU01LXEizLE1Q
 date: 2019-01-19
 talk:
   title: Where Did All My Money Go?

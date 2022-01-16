@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: s3WCYisS87vwOmaAQ3phQNJCVF6Ghzg02x4pj6sGIxo8
+mux: s3WCYisS87vwOmaAQ3phQNJCVF6Ghzg02x4pj6sGIxo8
 date: 2020-09-26
 talk:
   title: Accessibility for Developers

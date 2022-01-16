@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: DRG7sl1uOsjFcmuKl00uys2u68y01vmnKoeXwMQBnUv8Q
+mux: DRG7sl1uOsjFcmuKl00uys2u68y01vmnKoeXwMQBnUv8Q
 date: 2019-01-19
 talk:
   title: Understanding and Cultivating Independence

@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: fIK6T9PjJj6GpSMoV5qTVfCOGlsdYipT7C1CuV1LO18
+mux: fIK6T9PjJj6GpSMoV5qTVfCOGlsdYipT7C1CuV1LO18
 date: 2020-01-18
 talk:
   title: Making Your First Days Count

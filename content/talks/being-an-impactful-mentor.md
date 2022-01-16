@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-video: 00HKHM1Pvtv4XqJRgwkdvgnQ474GiEcuB7HQrTxE28es
+mux: 00HKHM1Pvtv4XqJRgwkdvgnQ474GiEcuB7HQrTxE28es
 date: 2021-01-16
 talk:
   title: Being an Impactful Mentor

@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-video: qS5a9oqOvRF006492h53oGTrrvqV5BkRKJsW01Fl4IcV8
+mux: qS5a9oqOvRF006492h53oGTrrvqV5BkRKJsW01Fl4IcV8
 date: 2021-01-16
 talk:
   title: Lessons Learnt (Hardly) Working From Home
@@ -14,7 +14,7 @@ speakers:
     twitter: SareenShivangi
     bio: "Shivangi Sareen graduated in 2019 from Trinity College Dublin and moved to the UK to start at American Express. The experience has facilitated meeting talented people and acquiring knowledge in new technology domains. She writes a technical blog (Medium: @shivangisareen) and recently started blogging on her path to achieving a more sustainable lifestyle (Medium: @the-sustainable-edit). She jumps at the prospect of learning new things."
     photo: shivangi-sareen.jpg
-tags: ['you-got-this-from-your-couch', 'professional-development' ]
+tags: ['you-got-this-from-your-couch', 'working-from-home']
 ---
 
 SHIVANGI: Hi, everyone. The whole world shook when the pandemic took over, and changed the way we live our lives - travelling, socialising, working from the office, just basic everyday things stopped right in their tracks. People lost their jobs, businesses have been shut down, doctors and nurses have been working overtime, and so much more. Those of us who have the support in the companies we work for have been lucky to work from home at such time, and, with it, comes its own set of challenges. We want to share with you our experience from working from home and share some of the lessons we've learned that can be applied from your own work routine.

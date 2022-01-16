@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: riNSXbmfs6NUTLH74X4fv8NgfjNzNgR73QET1nIW006I
+mux: riNSXbmfs6NUTLH74X4fv8NgfjNzNgR73QET1nIW006I
 date: 2020-01-18
 talk:
   title: Learning to Invest in Your Future

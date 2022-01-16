@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: RalUpllU01m4zDU1Ltl01ZSeTjEOWkzfFtuWTxkZEaoRk
+mux: RalUpllU01m4zDU1Ltl01ZSeTjEOWkzfFtuWTxkZEaoRk
 date: 2020-06-06
 talk:
   title: Learning is a Skill You Can Practice

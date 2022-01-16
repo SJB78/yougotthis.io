@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: 02TobnpuRVQk8SQp18zAsuXeF64sP8RKnKf8aBUzkxTg
+mux: 02TobnpuRVQk8SQp18zAsuXeF64sP8RKnKf8aBUzkxTg
 date: 2020-01-18
 talk:
   title: Unions Got This - Organising the Tech Trade

@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: SgwNXzqppn3ELa90202HM5PI70202c1YI01cSsK8LC1RRyXY
+mux: SgwNXzqppn3ELa90202HM5PI70202c1YI01cSsK8LC1RRyXY
 date: 2020-06-06
 talk:
   title: "The Breaking Point: Recovering from Burnout"

@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: sQOHXAg2SetJWLD02wEmAyXW4AFSrSwc8M9hcOP6QWrM
+mux: sQOHXAg2SetJWLD02wEmAyXW4AFSrSwc8M9hcOP6QWrM
 date: 2019-01-19
 talk:
   title: You Can Share Your Knowledge, Whatever Your Level

@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: Hs8Vq8S1w02cjNKKfiFypdJ77A6bLqfCCGc5j01K6NzOs
+mux: Hs8Vq8S1w02cjNKKfiFypdJ77A6bLqfCCGc5j01K6NzOs
 date: 2020-06-06
 talk:
   title: "Feedback: How to Have Taste and Not Be Afraid to Use It"

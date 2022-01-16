@@ -1,6 +1,6 @@
 ---
 event: 'You Got This Through the Seasons: Summer 2021'
-video: FGzWOFLVx00YgppZrztHfP01DyC9i02OyLGPdBXOWMdsWY
+mux: FGzWOFLVx00YgppZrztHfP01DyC9i02OyLGPdBXOWMdsWY
 date: 2021-08-12
 talk:
   title: What Civil Engineering Can Teach Us About Ethics

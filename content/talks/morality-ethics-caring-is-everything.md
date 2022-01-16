@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: awUXf6bX9WOCqeyQF01kXEYV200c1kNEsm6AAiQtTdXfY
+mux: awUXf6bX9WOCqeyQF01kXEYV200c1kNEsm6AAiQtTdXfY
 date: 2019-01-19
 talk:
   title: Morality and Ethics - Caring is Everything

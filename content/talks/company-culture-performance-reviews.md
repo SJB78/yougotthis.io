@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: YKzaFwZPZjTu4c4OGqNV0248101mWree3l5VO5pXEp2ws
+mux: YKzaFwZPZjTu4c4OGqNV0248101mWree3l5VO5pXEp2ws
 date: 2020-01-18
 talk:
   title: Company Culture, Performance Reviews & You

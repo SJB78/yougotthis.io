@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Home"
-video: img7s9STapcUbz8C6FNt9gbJR3Z00KCOd52Uhl6CThgI
+mux: img7s9STapcUbz8C6FNt9gbJR3Z00KCOd52Uhl6CThgI
 date: 2020-06-06
 talk:
   title: The Art of Communication

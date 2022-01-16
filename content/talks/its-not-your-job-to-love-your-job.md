@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: toKEPdZQJMjWOIgr02h8MV02crephUbplnqehHbLBpHds
+mux: toKEPdZQJMjWOIgr02h8MV02crephUbplnqehHbLBpHds
 date: 2020-01-18
 talk:
   title: It's Not Your Job To Love Your Job

@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: eHqNNRL1QAeh02iPu00gLMvK9MeAvllw02k01FdFptTkqPY
+mux: eHqNNRL1QAeh02iPu00gLMvK9MeAvllw02k01FdFptTkqPY
 date: 2020-09-26
 talk:
   title: The Art of Failing, Inspired by Mindful Parenting

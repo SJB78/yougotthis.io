@@ -4,7 +4,8 @@
     <p class="text-lg">
       Presented by {{ talk.speakers.map((s) => s.name).join(' & ') }}
     </p>
-    <div>
+
+    <div v-if="talk.mux">
       <div class="w-full mt-4 lg:mt-16 border-2 border-indigo-700">
         <vue-plyr>
           <video ref="videoStreaming" controls crossorigin playsinline>
@@ -21,6 +22,11 @@
         >
       </p>
     </div>
+
+    <div v-if="talk.vimeo">
+      <iframe :src="`https://player.vimeo.com/video/${talk.vimeo}?h=44d49687ad&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen class="w-full lg:mt-16 border-2 border-indigo-700" style="aspect-ratio: 16/9"></iframe>
+    </div>
+
     <div
       class="
         flex flex-col-reverse
@@ -187,7 +193,7 @@ export default {
     }
   },
   head() {
-    return {
+    const base = {
       link: [{ rel: 'stylesheet', href: '/css/plyr.css' }],
       title: `${this.talk.talk.title} | ${process.env.title}`,
       meta: [
@@ -198,13 +204,15 @@ export default {
         },
       ],
     }
+    if(this.talk.vimeo) base.script = [{ src: 'https://player.vimeo.com/api/player.js' }]
+    return base
   },
   mounted() {
-    this.videoStreaming()
+    if(this.talk.mux) this.videoStreaming()
   },
   methods: {
     videoStreaming() {
-      const url = `https://stream.mux.com/${this.talk.video}.m3u8`
+      const url = `https://stream.mux.com/${this.talk.mux}.m3u8`
       const video = this.$refs.videoStreaming
       const defaultOptions = {}
       if (Hls.isSupported()) {

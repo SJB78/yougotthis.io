@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-video: 95vQ8oysHNnvtEtlAvWE1Ux2f1XE4O1ZAVHNjBLFf02c
+mux: 95vQ8oysHNnvtEtlAvWE1Ux2f1XE4O1ZAVHNjBLFf02c
 date: 2020-09-26
 talk:
   title: Stress & Depression – a Taboo in our Time

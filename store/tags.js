@@ -7,6 +7,7 @@ export const state = () => ({
     { name: 'self-advocacy', type: 'theme' },
     { name: 'self-care', type: 'theme' },
     { name: 'working-with-others', type: 'theme' },
+    { name: 'working-from-home', type: 'theme' },
     { name: 'you-got-this-in-cyberspace', type: 'event' },
     { name: 'you-got-this-through-the-seasons-fall-2021', type: 'event' },
     { name: 'you-got-this-through-the-seasons-summer-2021', type: 'event' },

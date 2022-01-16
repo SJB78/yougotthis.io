@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-video: zNonMYVb01qcYEutGIGoqtqbvOquVlGoHSPyVaQzcU9s
+mux: zNonMYVb01qcYEutGIGoqtqbvOquVlGoHSPyVaQzcU9s
 date: 2019-01-19
 talk:
   title: Perfectionism, Imposter Syndrome & Anxiety

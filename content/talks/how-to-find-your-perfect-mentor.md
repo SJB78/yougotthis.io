@@ -1,6 +1,6 @@
 ---
 event: You Got This 2020
-video: gW1mGocsvPp8FytCiDUIRMDS2DS1WAkYekuFQz7aYNI
+mux: gW1mGocsvPp8FytCiDUIRMDS2DS1WAkYekuFQz7aYNI
 date: 2020-01-18
 talk:
   title: How to Find Your Perfect Mentor
