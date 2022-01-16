@@ -1,13 +1,13 @@
 <template>
   <header class="bg-black text-white">
-    <a class="wrapper p-4 pb-0 block" href="https://live.yougotthis.io">
+    <!--<a class="wrapper p-4 pb-0 block" href="https://live.yougotthis.io">
       <div class="bg-red-600 text-white p-4 rounded flex justify-between items-center gap-4">
         <p>🎥 Watch our annual conference live this Saturday</p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
         </svg>
       </div>
-    </a>
+    </a>-->
     <div class="wrapper p-4 flex items-center gap-4">
       <a href="/" class="flex justify-start items-center flex-1">
         <img src="~/assets/img/fist.svg" alt="Fist logo" class="h-14" />
