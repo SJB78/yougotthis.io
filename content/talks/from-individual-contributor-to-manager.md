@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-mux: 8fZ8OZ6w2s5EeHf23Uy7wmadpjuGvA33BG1xwo5QFMw
+vimeo: 666590196
 date: 2021-01-16
 talk:
   title: "Individual Contributor to Manager: Navigating the Shift"

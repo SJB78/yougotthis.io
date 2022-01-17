@@ -1,6 +1,6 @@
 ---
 event: 'IT Matters Conference ONLINE'
-mux: K7SJs0133YfAbsz8Ab822HlGpqh1l9LonH4FbEf5GH6o
+vimeo: 666617083
 date: 2020-09-26
 talk:
   title: Teaching Resilience Through Stoicism

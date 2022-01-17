@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-mux: XHS2NKUv02mHvfSuiQD9pjyUDcGz5KPPrB2JmbJglQZE
+vimeo: 666602428
 date: 2021-01-16
 talk:
   title: The Power of Co-Working

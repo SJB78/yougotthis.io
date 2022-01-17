@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-mux: jk3S02Z8yHJRLAr3hj0131WJvKXKjnCpyjwk802HDFSIs00
+vimeo: 666600137
 date: 2021-01-16
 talk:
   title: "Pivot! Changing Your Career Path"

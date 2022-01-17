@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-mux: 7wrlbltnGDgXBol9UrQ9IOdWljn9cdqGbRk1wrvMT7E
+vimeo: 666554661
 date: 2021-01-16
 talk:
   title: Building an Equitable Web

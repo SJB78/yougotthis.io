@@ -1,9 +1,9 @@
 ---
 event: 'IT Matters Conference ONLINE'
-mux: k73rlo00VHhvkA5BoejKpuaL6lmjGOAmQ5Ljgxq1Okuw
+vimeo: 666610794
 date: 2020-09-26
 talk:
-  title: Labeling Ourselves – When We Love It, When We Hate It
+  title: Understanding Labels We Give Ourselves and Others
   abstract: 'If there is one certain thing I could tell about people while working with them as a trainer, that’s the one: we do love to read and hear about the most intriguing creature we know – that is ourselves. We love to call, think or speak about ourselves using specific, sometimes funny, sometimes odd terms like introverts, extraverts, ambiverts, yellow-thinker, red thinker, hyper activer, visualizer, and lately – the High Sensitive People. You probably have your favorite one to add to the list.This may seem harmless and not serious – like reading a horoscope – who believes in them! Oh… wait…  During this talk, I want to invite the audience to do a little self-scan: what is my favorite label and why do I need it? And as a fan of the evidence-based approach, I would like to show what the scientific approach has to say regarding such labels. I hope that after this talk you would be able to use the tests, quizzes and all other questionnaires with greater benefit to yourself and…those around you.'
 speakers:
   - name: Daria Dorda

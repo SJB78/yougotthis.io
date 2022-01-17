@@ -1,6 +1,6 @@
 ---
 event: "You Got This From Your Couch"
-mux: qS5a9oqOvRF006492h53oGTrrvqV5BkRKJsW01Fl4IcV8
+vimeo: 666594080
 date: 2021-01-16
 talk:
   title: Lessons Learnt (Hardly) Working From Home

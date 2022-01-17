@@ -1,9 +1,9 @@
 ---
 event: 'IT Matters Conference ONLINE'
-mux: qZd8F00nN9BsEVm6S5srRhobg6ssT6hddUqxADuFzICs
+vimeo: 666608454
 date: 2020-09-26
 talk:
-  title: From Miscommunication to Miss Communication
+  title: Recognising Behaviors and Communicating Boundaries
   abstract: Last year I divorced. My relationship ended after 14 years. Naturally I was devastated, but it also meant the start of immense personal development. I recognised some patterns in my behaviour that I wanted to change. So I took a workshop. And then another. And then another. What I learned there was not only applicable to my personal relationships, but also to my professional ones.  In this talk, I want to help you understand how to recognise patterns in your own behaviour, communicate your needs and boundaries, and help you understand the feelings you may have when trying to change these patterns.
 speakers:
   - name: Klaartje Van Zwoll
