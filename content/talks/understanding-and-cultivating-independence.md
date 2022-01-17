@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-mux: DRG7sl1uOsjFcmuKl00uys2u68y01vmnKoeXwMQBnUv8Q
+vimeo: 666702480
 date: 2019-01-19
 talk:
   title: Understanding and Cultivating Independence

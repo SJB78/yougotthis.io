@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-mux: 2jXg3V5pHwlGzt4nJ02NCt8zzTnChdYbmgviE6OBV35s
+vimeo: 666701284
 date: 2019-01-19
 talk:
   title: "Self-Care: Beyond the Hashtags"

@@ -1,6 +1,6 @@
 ---
 event: You Got This 2019
-mux: 6mzOPRSMsWzV6MIg4RnfUKGrMvWFLM9VXBgM5bJDDg8
+vimeo: 666700130
 date: 2019-01-19
 talk:
   title: Moving On From Being a Junior
