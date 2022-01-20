@@ -40,7 +40,7 @@ If you want really to bring home your message, use stories, only where sensible.
 
 And then, use props. Especially in the video conference world where you're not in the meeting room but at home, you can use a lot of props to make your speech more entertaining. It can be a bit cheesy sometimes, but it breaks the flow and keeps people entertained because they're known and used to it from a screen to get entertained. This is going to be very cheesy, but if you want to talk about a sales strategy, you can say let's add a bit of spice to our sales presentation. It's cheesy and everybody will laugh and interrupt the flow of words and draw people in and listen to you more.
 
-That was like the more public-speaking part of my presentation, and now the more what you can do with your video call set-up. Both parts are similarly import because only if you combine them, you get the full effect of what you're doing.
+That was like the more public-speaking part of my presentation, and now the more what you can do with your video call set-up. Both parts are similarly important because only if you combine them, you get the full effect of what you're doing.
 
 And, let's talk about ethos, the credibility when you are presenting. There are a lot of ways to increase your credibility using your video call set-up at home. One of the most important ones is camera placement. I've seen in so many meetings that people are only visible, like, half of their face, or maybe the face that is very small, so make sure that where you place your camera, you see your face and your upper body. Because a lot of the communication we're doing is with our body language, not with what we are saying.
 
